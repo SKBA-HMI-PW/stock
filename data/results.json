@@ -1,16 +1,24 @@
 {
-  "generated_at_utc": "2026-10-01T02:45:47.170745+00:00",
+  "generated_at_utc": "2026-10-01T03:47:28.615784+00:00",
   "criteria": {
     "recent_days": 20,
     "previous_days": 20,
     "min_volume_multiple": 3.0,
     "max_price_change_pct_exclusive": 3.0,
     "decliners_included": true,
-    "etfs_excluded": true
+    "etfs_excluded": true,
+    "practical_mode": {
+      "min_price_exclusive": 10.0,
+      "min_previous_avg_volume": 100000,
+      "min_recent_avg_dollar_volume": 5000000,
+      "units_warrants_rights_preferred_excluded": true,
+      "spac_names_excluded": true
+    }
   },
-  "universe_count": 5779,
-  "match_count": 305,
-  "data_failure_count": 123,
+  "universe_count": 6112,
+  "match_count": 314,
+  "practical_match_count": 18,
+  "data_failure_count": 112,
   "results": [
     {
       "symbol": "BENF",
@@ -21,6 +29,9 @@
       "previous_avg_volume": 17830,
       "price_change_pct": -30.26,
       "last_close": 1.36,
+      "recent_avg_dollar_volume": 56647772,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -32,6 +43,9 @@
       "previous_avg_volume": 1656,
       "price_change_pct": -98.58,
       "last_close": 2.71,
+      "recent_avg_dollar_volume": 9765549,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -43,18 +57,10 @@
       "previous_avg_volume": 423,
       "price_change_pct": -96.81,
       "last_close": 3.71,
+      "recent_avg_dollar_volume": 5724684,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
-    },
-    {
-      "symbol": "TAVIU",
-      "name": "Tavia Acquisition Corp. - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 442.0,
-      "recent_avg_volume": 2210,
-      "previous_avg_volume": 5,
-      "price_change_pct": 0.09,
-      "last_close": 10.81,
-      "direction": "flat_up"
     },
     {
       "symbol": "GELS",
@@ -65,6 +71,9 @@
       "previous_avg_volume": 22965,
       "price_change_pct": -0.38,
       "last_close": 0.53,
+      "recent_avg_dollar_volume": 6837802,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -76,6 +85,9 @@
       "previous_avg_volume": 1110,
       "price_change_pct": -86.08,
       "last_close": 1.53,
+      "recent_avg_dollar_volume": 1898423,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -87,6 +99,9 @@
       "previous_avg_volume": 13125,
       "price_change_pct": -58.96,
       "last_close": 4.5,
+      "recent_avg_dollar_volume": 66784207,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -98,6 +113,9 @@
       "previous_avg_volume": 27215,
       "price_change_pct": -35.62,
       "last_close": 1.97,
+      "recent_avg_dollar_volume": 21983827,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -109,6 +127,9 @@
       "previous_avg_volume": 3610,
       "price_change_pct": -1.11,
       "last_close": 10.68,
+      "recent_avg_dollar_volume": 9287249,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -120,6 +141,9 @@
       "previous_avg_volume": 38730,
       "price_change_pct": -10.14,
       "last_close": 0.523,
+      "recent_avg_dollar_volume": 6173617,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -131,6 +155,9 @@
       "previous_avg_volume": 5100,
       "price_change_pct": -30.27,
       "last_close": 0.509,
+      "recent_avg_dollar_volume": 586660,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -142,6 +169,9 @@
       "previous_avg_volume": 231047,
       "price_change_pct": -87.37,
       "last_close": 0.168,
+      "recent_avg_dollar_volume": 8019046,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -153,6 +183,9 @@
       "previous_avg_volume": 12545,
       "price_change_pct": -46.39,
       "last_close": 0.89,
+      "recent_avg_dollar_volume": 3292949,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -164,6 +197,9 @@
       "previous_avg_volume": 20420,
       "price_change_pct": -25.2,
       "last_close": 1.41,
+      "recent_avg_dollar_volume": 7067052,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -175,6 +211,9 @@
       "previous_avg_volume": 7960,
       "price_change_pct": 1.45,
       "last_close": 0.911,
+      "recent_avg_dollar_volume": 1619079,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -186,6 +225,9 @@
       "previous_avg_volume": 333665,
       "price_change_pct": -69.71,
       "last_close": 0.106,
+      "recent_avg_dollar_volume": 11027991,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -197,6 +239,9 @@
       "previous_avg_volume": 8218,
       "price_change_pct": -97.42,
       "last_close": 3.71,
+      "recent_avg_dollar_volume": 7962742,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -208,6 +253,9 @@
       "previous_avg_volume": 182240,
       "price_change_pct": -82.22,
       "last_close": 0.512,
+      "recent_avg_dollar_volume": 22555571,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -219,6 +267,9 @@
       "previous_avg_volume": 75,
       "price_change_pct": 0.73,
       "last_close": 11.01,
+      "recent_avg_dollar_volume": 115196,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -230,6 +281,9 @@
       "previous_avg_volume": 74325,
       "price_change_pct": -6.98,
       "last_close": 2.8,
+      "recent_avg_dollar_volume": 26910577,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -241,6 +295,9 @@
       "previous_avg_volume": 133330,
       "price_change_pct": -59.28,
       "last_close": 0.851,
+      "recent_avg_dollar_volume": 14563807,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -252,6 +309,9 @@
       "previous_avg_volume": 830,
       "price_change_pct": 0.2,
       "last_close": 9.82,
+      "recent_avg_dollar_volume": 755822,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -263,6 +323,9 @@
       "previous_avg_volume": 44075,
       "price_change_pct": -11.35,
       "last_close": 0.82,
+      "recent_avg_dollar_volume": 6078047,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -274,6 +337,9 @@
       "previous_avg_volume": 19060,
       "price_change_pct": -38.58,
       "last_close": 3.12,
+      "recent_avg_dollar_volume": 11620764,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -285,6 +351,9 @@
       "previous_avg_volume": 109350,
       "price_change_pct": -23.68,
       "last_close": 0.58,
+      "recent_avg_dollar_volume": 7351769,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -296,6 +365,9 @@
       "previous_avg_volume": 1144475,
       "price_change_pct": -90.87,
       "last_close": 0.115,
+      "recent_avg_dollar_volume": 57353960,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -307,6 +379,9 @@
       "previous_avg_volume": 111614,
       "price_change_pct": -22.15,
       "last_close": 2.25,
+      "recent_avg_dollar_volume": 33197288,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -318,6 +393,9 @@
       "previous_avg_volume": 78975,
       "price_change_pct": -16.48,
       "last_close": 0.451,
+      "recent_avg_dollar_volume": 4064429,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -329,6 +407,9 @@
       "previous_avg_volume": 220,
       "price_change_pct": 0.29,
       "last_close": 10.29,
+      "recent_avg_dollar_volume": 159234,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -340,6 +421,9 @@
       "previous_avg_volume": 10690,
       "price_change_pct": -21.76,
       "last_close": 1.69,
+      "recent_avg_dollar_volume": 1353321,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -351,6 +435,9 @@
       "previous_avg_volume": 6770,
       "price_change_pct": -14.98,
       "last_close": 2.1,
+      "recent_avg_dollar_volume": 1011860,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -362,6 +449,9 @@
       "previous_avg_volume": 3565,
       "price_change_pct": -7.54,
       "last_close": 1.091,
+      "recent_avg_dollar_volume": 234676,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -373,6 +463,9 @@
       "previous_avg_volume": 27620,
       "price_change_pct": -19.28,
       "last_close": 2.93,
+      "recent_avg_dollar_volume": 4808808,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -384,6 +477,9 @@
       "previous_avg_volume": 990,
       "price_change_pct": -22.65,
       "last_close": 8.4,
+      "recent_avg_dollar_volume": 609090,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -395,6 +491,9 @@
       "previous_avg_volume": 14155,
       "price_change_pct": -10.96,
       "last_close": 1.3,
+      "recent_avg_dollar_volume": 1237515,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -406,6 +505,9 @@
       "previous_avg_volume": 148675,
       "price_change_pct": -0.42,
       "last_close": 2.37,
+      "recent_avg_dollar_volume": 32613847,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -417,6 +519,9 @@
       "previous_avg_volume": 23065,
       "price_change_pct": -70.0,
       "last_close": 3.18,
+      "recent_avg_dollar_volume": 4093717,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -428,6 +533,23 @@
       "previous_avg_volume": 593260,
       "price_change_pct": -25.14,
       "last_close": 0.277,
+      "recent_avg_dollar_volume": 10591375,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "PPBT",
+      "name": "Purple Biotech Ltd. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 49.86,
+      "recent_avg_volume": 3972535,
+      "previous_avg_volume": 79680,
+      "price_change_pct": -8.43,
+      "last_close": 1.52,
+      "recent_avg_dollar_volume": 7840114,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -439,6 +561,9 @@
       "previous_avg_volume": 1130,
       "price_change_pct": 0.39,
       "last_close": 10.25,
+      "recent_avg_dollar_volume": 575010,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -450,6 +575,9 @@
       "previous_avg_volume": 188825,
       "price_change_pct": -94.37,
       "last_close": 0.125,
+      "recent_avg_dollar_volume": 2176732,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -461,6 +589,9 @@
       "previous_avg_volume": 51520,
       "price_change_pct": -32.14,
       "last_close": 0.76,
+      "recent_avg_dollar_volume": 2422764,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -472,6 +603,9 @@
       "previous_avg_volume": 9740,
       "price_change_pct": -23.62,
       "last_close": 1.52,
+      "recent_avg_dollar_volume": 921410,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -483,6 +617,9 @@
       "previous_avg_volume": 30075,
       "price_change_pct": -87.98,
       "last_close": 0.535,
+      "recent_avg_dollar_volume": 1326305,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -494,6 +631,9 @@
       "previous_avg_volume": 2305,
       "price_change_pct": 0.1,
       "last_close": 10.01,
+      "recent_avg_dollar_volume": 1032769,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -505,6 +645,23 @@
       "previous_avg_volume": 14905,
       "price_change_pct": -8.66,
       "last_close": 1.16,
+      "recent_avg_dollar_volume": 856859,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "SCNI",
+      "name": "Scinai Immunotherapeutics Ltd. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 43.5,
+      "recent_avg_volume": 3352075,
+      "previous_avg_volume": 77062,
+      "price_change_pct": -42.28,
+      "last_close": 1.42,
+      "recent_avg_dollar_volume": 7250270,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -516,6 +673,9 @@
       "previous_avg_volume": 469325,
       "price_change_pct": -33.37,
       "last_close": 0.1943,
+      "recent_avg_dollar_volume": 6375044,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -527,6 +687,9 @@
       "previous_avg_volume": 545,
       "price_change_pct": 0.1,
       "last_close": 10.34,
+      "recent_avg_dollar_volume": 239791,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -538,6 +701,9 @@
       "previous_avg_volume": 1065,
       "price_change_pct": 0.32,
       "last_close": 10.0322,
+      "recent_avg_dollar_volume": 451042,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -549,17 +715,9 @@
       "previous_avg_volume": 10084,
       "price_change_pct": -96.32,
       "last_close": 1.36,
-      "direction": "down"
-    },
-    {
-      "symbol": "TVACU",
-      "name": "Texas Ventures Acquisition III Corp - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 40.29,
-      "recent_avg_volume": 1410,
-      "previous_avg_volume": 35,
-      "price_change_pct": -1.02,
-      "last_close": 10.64,
+      "recent_avg_dollar_volume": 1917219,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -571,6 +729,9 @@
       "previous_avg_volume": 36940,
       "price_change_pct": 0.0,
       "last_close": 1.37,
+      "recent_avg_dollar_volume": 2525939,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -582,28 +743,23 @@
       "previous_avg_volume": 12220,
       "price_change_pct": -22.05,
       "last_close": 1.52,
+      "recent_avg_dollar_volume": 822555,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
-      "symbol": "SSEAU",
-      "name": "Starry Sea Acquisition Corp - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 33.33,
-      "recent_avg_volume": 500,
-      "previous_avg_volume": 15,
-      "price_change_pct": -0.48,
-      "last_close": 10.43,
-      "direction": "down"
-    },
-    {
-      "symbol": "ARCIU",
-      "name": "Archimedes Tech SPAC Partners III Co. - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 32.5,
-      "recent_avg_volume": 650,
-      "previous_avg_volume": 20,
-      "price_change_pct": -1.59,
-      "last_close": 10.245,
+      "symbol": "CANF",
+      "name": "Can-Fite Biopharma Ltd American Depositary Shares, each representing two (2) Ordinary Shares",
+      "exchange": "NYSE American",
+      "volume_multiple": 32.92,
+      "recent_avg_volume": 1094820,
+      "previous_avg_volume": 33255,
+      "price_change_pct": -33.13,
+      "last_close": 2.2,
+      "recent_avg_dollar_volume": 2576018,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -615,6 +771,9 @@
       "previous_avg_volume": 3965,
       "price_change_pct": 0.66,
       "last_close": 10.67,
+      "recent_avg_dollar_volume": 1377962,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -626,6 +785,9 @@
       "previous_avg_volume": 990,
       "price_change_pct": 0.2,
       "last_close": 10.08,
+      "recent_avg_dollar_volume": 312135,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -637,6 +799,9 @@
       "previous_avg_volume": 10680,
       "price_change_pct": -52.76,
       "last_close": 1.89,
+      "recent_avg_dollar_volume": 1143813,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -648,6 +813,9 @@
       "previous_avg_volume": 62660,
       "price_change_pct": -32.58,
       "last_close": 0.445,
+      "recent_avg_dollar_volume": 951891,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -659,7 +827,24 @@
       "previous_avg_volume": 850,
       "price_change_pct": 0.8,
       "last_close": 10.02,
+      "recent_avg_dollar_volume": 236429,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
+    },
+    {
+      "symbol": "TURB",
+      "name": "Turbo Energy, S.A. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 27.33,
+      "recent_avg_volume": 5199585,
+      "previous_avg_volume": 190245,
+      "price_change_pct": -3.42,
+      "last_close": 1.13,
+      "recent_avg_dollar_volume": 6767163,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
     },
     {
       "symbol": "FTHM",
@@ -670,6 +855,9 @@
       "previous_avg_volume": 114940,
       "price_change_pct": -30.06,
       "last_close": 0.435,
+      "recent_avg_dollar_volume": 1749095,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -681,6 +869,9 @@
       "previous_avg_volume": 77040,
       "price_change_pct": -9.31,
       "last_close": 0.925,
+      "recent_avg_dollar_volume": 2364066,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -692,6 +883,9 @@
       "previous_avg_volume": 288610,
       "price_change_pct": -20.57,
       "last_close": 0.834,
+      "recent_avg_dollar_volume": 8358543,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -703,6 +897,9 @@
       "previous_avg_volume": 25460,
       "price_change_pct": -1.23,
       "last_close": 2.4,
+      "recent_avg_dollar_volume": 2107240,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -714,6 +911,9 @@
       "previous_avg_volume": 17865,
       "price_change_pct": -8.48,
       "last_close": 4.6,
+      "recent_avg_dollar_volume": 2923999,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -725,6 +925,9 @@
       "previous_avg_volume": 165320,
       "price_change_pct": -55.43,
       "last_close": 1.64,
+      "recent_avg_dollar_volume": 10048614,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -736,6 +939,9 @@
       "previous_avg_volume": 12870,
       "price_change_pct": 2.95,
       "last_close": 0.628,
+      "recent_avg_dollar_volume": 216663,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -747,6 +953,9 @@
       "previous_avg_volume": 635,
       "price_change_pct": 0.0,
       "last_close": 9.95,
+      "recent_avg_dollar_volume": 149649,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -758,6 +967,9 @@
       "previous_avg_volume": 2790,
       "price_change_pct": -0.2,
       "last_close": 10.04,
+      "recent_avg_dollar_volume": 654784,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -769,6 +981,9 @@
       "previous_avg_volume": 138545,
       "price_change_pct": -58.6,
       "last_close": 0.332,
+      "recent_avg_dollar_volume": 1250684,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -780,6 +995,9 @@
       "previous_avg_volume": 105,
       "price_change_pct": 0.0,
       "last_close": 11.25,
+      "recent_avg_dollar_volume": 26839,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -791,17 +1009,9 @@
       "previous_avg_volume": 1790,
       "price_change_pct": -6.44,
       "last_close": 29.5,
-      "direction": "down"
-    },
-    {
-      "symbol": "POLEU",
-      "name": "Andretti Acquisition Corp. II - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 21.73,
-      "recent_avg_volume": 109,
-      "previous_avg_volume": 5,
-      "price_change_pct": -4.11,
-      "last_close": 10.74,
+      "recent_avg_dollar_volume": 1261117,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -813,6 +1023,9 @@
       "previous_avg_volume": 350073,
       "price_change_pct": -37.63,
       "last_close": 3.25,
+      "recent_avg_dollar_volume": 31597403,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -824,6 +1037,9 @@
       "previous_avg_volume": 621600,
       "price_change_pct": -71.86,
       "last_close": 0.121,
+      "recent_avg_dollar_volume": 3910190,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -835,6 +1051,9 @@
       "previous_avg_volume": 595,
       "price_change_pct": -7.4,
       "last_close": 22.4,
+      "recent_avg_dollar_volume": 278980,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -846,6 +1065,9 @@
       "previous_avg_volume": 25124,
       "price_change_pct": -8.33,
       "last_close": 3.63,
+      "recent_avg_dollar_volume": 2295043,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -857,6 +1079,9 @@
       "previous_avg_volume": 7230,
       "price_change_pct": -6.57,
       "last_close": 0.668,
+      "recent_avg_dollar_volume": 102402,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -868,6 +1093,9 @@
       "previous_avg_volume": 545270,
       "price_change_pct": -53.39,
       "last_close": 1.1,
+      "recent_avg_dollar_volume": 12258272,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -879,6 +1107,9 @@
       "previous_avg_volume": 55492,
       "price_change_pct": -98.8,
       "last_close": 1.56,
+      "recent_avg_dollar_volume": 13163178,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -890,6 +1121,9 @@
       "previous_avg_volume": 87740,
       "price_change_pct": 0.0,
       "last_close": 0.59,
+      "recent_avg_dollar_volume": 878134,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -901,6 +1135,9 @@
       "previous_avg_volume": 15310,
       "price_change_pct": -19.15,
       "last_close": 1.14,
+      "recent_avg_dollar_volume": 319925,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -912,6 +1149,9 @@
       "previous_avg_volume": 31730,
       "price_change_pct": 0.28,
       "last_close": 10.58,
+      "recent_avg_dollar_volume": 5923239,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -923,6 +1163,9 @@
       "previous_avg_volume": 10640,
       "price_change_pct": -15.0,
       "last_close": 3.06,
+      "recent_avg_dollar_volume": 671631,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -934,6 +1177,9 @@
       "previous_avg_volume": 3575,
       "price_change_pct": -19.59,
       "last_close": 1.19,
+      "recent_avg_dollar_volume": 76974,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -945,7 +1191,24 @@
       "previous_avg_volume": 60300,
       "price_change_pct": -20.67,
       "last_close": 0.714,
+      "recent_avg_dollar_volume": 824542,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
+    },
+    {
+      "symbol": "AHG",
+      "name": "Akso Health Group - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 16.19,
+      "recent_avg_volume": 296455,
+      "previous_avg_volume": 18310,
+      "price_change_pct": 0.0,
+      "last_close": 0.9,
+      "recent_avg_dollar_volume": 264403,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "flat_up"
     },
     {
       "symbol": "PAII",
@@ -956,6 +1219,9 @@
       "previous_avg_volume": 5040,
       "price_change_pct": 0.39,
       "last_close": 10.33,
+      "recent_avg_dollar_volume": 804109,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -967,6 +1233,9 @@
       "previous_avg_volume": 11795,
       "price_change_pct": 0.0,
       "last_close": 10.1,
+      "recent_avg_dollar_volume": 1780412,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -978,6 +1247,9 @@
       "previous_avg_volume": 100,
       "price_change_pct": 0.84,
       "last_close": 10.78,
+      "recent_avg_dollar_volume": 15793,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -989,6 +1261,9 @@
       "previous_avg_volume": 30080,
       "price_change_pct": -23.01,
       "last_close": 1.101,
+      "recent_avg_dollar_volume": 541104,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1000,6 +1275,9 @@
       "previous_avg_volume": 375,
       "price_change_pct": 0.2,
       "last_close": 9.92,
+      "recent_avg_dollar_volume": 53502,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1011,6 +1289,9 @@
       "previous_avg_volume": 2820,
       "price_change_pct": 0.49,
       "last_close": 10.27,
+      "recent_avg_dollar_volume": 402896,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1022,6 +1303,9 @@
       "previous_avg_volume": 145,
       "price_change_pct": -8.63,
       "last_close": 2.33,
+      "recent_avg_dollar_volume": 4840,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1033,6 +1317,9 @@
       "previous_avg_volume": 4925,
       "price_change_pct": 0.34,
       "last_close": 10.27,
+      "recent_avg_dollar_volume": 687879,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1044,6 +1331,9 @@
       "previous_avg_volume": 914070,
       "price_change_pct": -26.32,
       "last_close": 0.14,
+      "recent_avg_dollar_volume": 2196455,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1055,6 +1345,9 @@
       "previous_avg_volume": 103882,
       "price_change_pct": -34.36,
       "last_close": 4.04,
+      "recent_avg_dollar_volume": 9846718,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1066,6 +1359,9 @@
       "previous_avg_volume": 17315,
       "price_change_pct": -12.16,
       "last_close": 2.6,
+      "recent_avg_dollar_volume": 693154,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1077,6 +1373,9 @@
       "previous_avg_volume": 619060,
       "price_change_pct": -36.48,
       "last_close": 0.303,
+      "recent_avg_dollar_volume": 2769974,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1088,6 +1387,9 @@
       "previous_avg_volume": 2309,
       "price_change_pct": -3.41,
       "last_close": 5.6,
+      "recent_avg_dollar_volume": 191332,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1099,6 +1401,9 @@
       "previous_avg_volume": 37950,
       "price_change_pct": -11.79,
       "last_close": 0.935,
+      "recent_avg_dollar_volume": 479145,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1110,6 +1415,9 @@
       "previous_avg_volume": 215805,
       "price_change_pct": -1.77,
       "last_close": 1.11,
+      "recent_avg_dollar_volume": 3216827,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1121,6 +1429,9 @@
       "previous_avg_volume": 31300,
       "price_change_pct": -8.63,
       "last_close": 1.27,
+      "recent_avg_dollar_volume": 507984,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1132,6 +1443,9 @@
       "previous_avg_volume": 196620,
       "price_change_pct": -7.85,
       "last_close": 2.29,
+      "recent_avg_dollar_volume": 6967706,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1143,7 +1457,24 @@
       "previous_avg_volume": 4720,
       "price_change_pct": 0.49,
       "last_close": 10.27,
+      "recent_avg_dollar_volume": 514159,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
+    },
+    {
+      "symbol": "BDRX",
+      "name": "Biodexa Pharmaceuticals plc - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 10.52,
+      "recent_avg_volume": 10597670,
+      "previous_avg_volume": 1007655,
+      "price_change_pct": -16.01,
+      "last_close": 0.656,
+      "recent_avg_dollar_volume": 13596005,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
     },
     {
       "symbol": "QSEA",
@@ -1154,7 +1485,24 @@
       "previous_avg_volume": 815,
       "price_change_pct": 0.66,
       "last_close": 10.68,
+      "recent_avg_dollar_volume": 90804,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
+    },
+    {
+      "symbol": "CLLS",
+      "name": "Cellectis S.A. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 10.29,
+      "recent_avg_volume": 200990,
+      "previous_avg_volume": 19540,
+      "price_change_pct": -54.24,
+      "last_close": 1.51,
+      "recent_avg_dollar_volume": 336293,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
     },
     {
       "symbol": "MITQ",
@@ -1165,6 +1513,9 @@
       "previous_avg_volume": 23960,
       "price_change_pct": -0.52,
       "last_close": 0.579,
+      "recent_avg_dollar_volume": 152015,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1176,6 +1527,9 @@
       "previous_avg_volume": 279950,
       "price_change_pct": -18.18,
       "last_close": 0.522,
+      "recent_avg_dollar_volume": 1838952,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1187,6 +1541,9 @@
       "previous_avg_volume": 258820,
       "price_change_pct": -44.44,
       "last_close": 0.28,
+      "recent_avg_dollar_volume": 932588,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1198,6 +1555,9 @@
       "previous_avg_volume": 19295,
       "price_change_pct": -21.38,
       "last_close": 2.28,
+      "recent_avg_dollar_volume": 414007,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1209,6 +1569,9 @@
       "previous_avg_volume": 5270,
       "price_change_pct": 0.28,
       "last_close": 10.68,
+      "recent_avg_dollar_volume": 563859,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1220,6 +1583,9 @@
       "previous_avg_volume": 6630,
       "price_change_pct": 0.38,
       "last_close": 10.44,
+      "recent_avg_dollar_volume": 691029,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1231,6 +1597,9 @@
       "previous_avg_volume": 4125,
       "price_change_pct": 0.1,
       "last_close": 9.98,
+      "recent_avg_dollar_volume": 409076,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1242,6 +1611,9 @@
       "previous_avg_volume": 145432,
       "price_change_pct": -63.77,
       "last_close": 4.42,
+      "recent_avg_dollar_volume": 3252899,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1253,6 +1625,9 @@
       "previous_avg_volume": 13370,
       "price_change_pct": -5.97,
       "last_close": 2.125,
+      "recent_avg_dollar_volume": 308300,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1264,28 +1639,9 @@
       "previous_avg_volume": 45,
       "price_change_pct": 0.6,
       "last_close": 11.81,
-      "direction": "flat_up"
-    },
-    {
-      "symbol": "IACQU",
-      "name": "Irenic Acquisition Corp. - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 9.47,
-      "recent_avg_volume": 805,
-      "previous_avg_volume": 85,
-      "price_change_pct": 0.3,
-      "last_close": 10.13,
-      "direction": "flat_up"
-    },
-    {
-      "symbol": "PLMKU",
-      "name": "Plum Acquisition Corp. IV - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 9.29,
-      "recent_avg_volume": 325,
-      "previous_avg_volume": 35,
-      "price_change_pct": 0.09,
-      "last_close": 10.76,
+      "recent_avg_dollar_volume": 5043,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1297,6 +1653,9 @@
       "previous_avg_volume": 166622,
       "price_change_pct": -11.52,
       "last_close": 1.69,
+      "recent_avg_dollar_volume": 3010504,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1308,18 +1667,10 @@
       "previous_avg_volume": 2910,
       "price_change_pct": 0.39,
       "last_close": 10.19,
+      "recent_avg_dollar_volume": 269357,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
-    },
-    {
-      "symbol": "RFAIU",
-      "name": "RF Acquisition Corp II - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 9.06,
-      "recent_avg_volume": 2130,
-      "previous_avg_volume": 235,
-      "price_change_pct": -2.79,
-      "last_close": 45.7,
-      "direction": "down"
     },
     {
       "symbol": "IDAC",
@@ -1330,6 +1681,9 @@
       "previous_avg_volume": 2335,
       "price_change_pct": -0.1,
       "last_close": 9.99,
+      "recent_avg_dollar_volume": 205110,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1341,6 +1695,9 @@
       "previous_avg_volume": 3720,
       "price_change_pct": 0.2,
       "last_close": 10.07,
+      "recent_avg_dollar_volume": 322463,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1352,6 +1709,9 @@
       "previous_avg_volume": 253715,
       "price_change_pct": -2.04,
       "last_close": 4.79,
+      "recent_avg_dollar_volume": 13120947,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1363,6 +1723,9 @@
       "previous_avg_volume": 3025,
       "price_change_pct": -0.69,
       "last_close": 10.05,
+      "recent_avg_dollar_volume": 254667,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1374,6 +1737,9 @@
       "previous_avg_volume": 853480,
       "price_change_pct": -3.73,
       "last_close": 0.62,
+      "recent_avg_dollar_volume": 5168720,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1385,6 +1751,9 @@
       "previous_avg_volume": 35735,
       "price_change_pct": -55.41,
       "last_close": 1.65,
+      "recent_avg_dollar_volume": 622533,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1396,6 +1765,9 @@
       "previous_avg_volume": 12615,
       "price_change_pct": -0.1,
       "last_close": 10.22,
+      "recent_avg_dollar_volume": 1042327,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1407,6 +1779,9 @@
       "previous_avg_volume": 1341050,
       "price_change_pct": -35.86,
       "last_close": 0.161,
+      "recent_avg_dollar_volume": 1811819,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1418,6 +1793,9 @@
       "previous_avg_volume": 15140,
       "price_change_pct": 0.0,
       "last_close": 10.43,
+      "recent_avg_dollar_volume": 1244307,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1429,6 +1807,9 @@
       "previous_avg_volume": 112440,
       "price_change_pct": 0.28,
       "last_close": 0.704,
+      "recent_avg_dollar_volume": 617123,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1440,6 +1821,9 @@
       "previous_avg_volume": 1170,
       "price_change_pct": -0.29,
       "last_close": 10.45,
+      "recent_avg_dollar_volume": 93540,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1451,6 +1835,9 @@
       "previous_avg_volume": 148945,
       "price_change_pct": -56.01,
       "last_close": 0.805,
+      "recent_avg_dollar_volume": 1238398,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1462,6 +1849,9 @@
       "previous_avg_volume": 467765,
       "price_change_pct": -9.91,
       "last_close": 0.8,
+      "recent_avg_dollar_volume": 3586124,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1473,6 +1863,9 @@
       "previous_avg_volume": 2285,
       "price_change_pct": -0.92,
       "last_close": 11.543,
+      "recent_avg_dollar_volume": 198567,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1484,6 +1877,9 @@
       "previous_avg_volume": 21375,
       "price_change_pct": -0.49,
       "last_close": 10.2,
+      "recent_avg_dollar_volume": 1651042,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1495,6 +1891,9 @@
       "previous_avg_volume": 20271,
       "price_change_pct": -11.76,
       "last_close": 15.0,
+      "recent_avg_dollar_volume": 2878834,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1506,6 +1905,9 @@
       "previous_avg_volume": 303611,
       "price_change_pct": -35.91,
       "last_close": 1.16,
+      "recent_avg_dollar_volume": 5567220,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1517,17 +1919,9 @@
       "previous_avg_volume": 9295,
       "price_change_pct": 0.11,
       "last_close": 10.38,
-      "direction": "flat_up"
-    },
-    {
-      "symbol": "SSACU",
-      "name": "SPACSphere Acquisition Corp. - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 7.22,
-      "recent_avg_volume": 1335,
-      "previous_avg_volume": 185,
-      "price_change_pct": 0.59,
-      "last_close": 10.31,
+      "recent_avg_dollar_volume": 701613,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1539,6 +1933,9 @@
       "previous_avg_volume": 19064,
       "price_change_pct": -48.24,
       "last_close": 7.5,
+      "recent_avg_dollar_volume": 2006231,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1550,6 +1947,9 @@
       "previous_avg_volume": 505,
       "price_change_pct": 0.68,
       "last_close": 10.38,
+      "recent_avg_dollar_volume": 37217,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1561,6 +1961,9 @@
       "previous_avg_volume": 140880,
       "price_change_pct": -9.4,
       "last_close": 0.453,
+      "recent_avg_dollar_volume": 453781,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1572,6 +1975,9 @@
       "previous_avg_volume": 23880,
       "price_change_pct": -8.33,
       "last_close": 2.86,
+      "recent_avg_dollar_volume": 484350,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1583,6 +1989,9 @@
       "previous_avg_volume": 22440,
       "price_change_pct": -22.09,
       "last_close": 1.27,
+      "recent_avg_dollar_volume": 223535,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1594,6 +2003,9 @@
       "previous_avg_volume": 10290,
       "price_change_pct": 0.3,
       "last_close": 10.02,
+      "recent_avg_dollar_volume": 712173,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1605,6 +2017,9 @@
       "previous_avg_volume": 25150,
       "price_change_pct": -3.9,
       "last_close": 85.05,
+      "recent_avg_dollar_volume": 15350319,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1616,6 +2031,9 @@
       "previous_avg_volume": 868460,
       "price_change_pct": -78.95,
       "last_close": 0.28,
+      "recent_avg_dollar_volume": 2340152,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1627,6 +2045,9 @@
       "previous_avg_volume": 30105,
       "price_change_pct": -4.76,
       "last_close": 6.81,
+      "recent_avg_dollar_volume": 1671248,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1638,6 +2059,9 @@
       "previous_avg_volume": 35920,
       "price_change_pct": -0.98,
       "last_close": 10.075,
+      "recent_avg_dollar_volume": 2387374,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1649,6 +2073,9 @@
       "previous_avg_volume": 5725,
       "price_change_pct": 0.1,
       "last_close": 10.03,
+      "recent_avg_dollar_volume": 370775,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1660,6 +2087,9 @@
       "previous_avg_volume": 7345,
       "price_change_pct": -32.82,
       "last_close": 2.62,
+      "recent_avg_dollar_volume": 129386,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1671,6 +2101,9 @@
       "previous_avg_volume": 782256,
       "price_change_pct": -32.81,
       "last_close": 2.97,
+      "recent_avg_dollar_volume": 27875619,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1682,6 +2115,9 @@
       "previous_avg_volume": 11490,
       "price_change_pct": 0.58,
       "last_close": 10.37,
+      "recent_avg_dollar_volume": 751731,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1693,6 +2129,9 @@
       "previous_avg_volume": 1397625,
       "price_change_pct": -12.22,
       "last_close": 3.88,
+      "recent_avg_dollar_volume": 32593536,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1704,6 +2143,9 @@
       "previous_avg_volume": 4810,
       "price_change_pct": 0.0,
       "last_close": 10.32,
+      "recent_avg_dollar_volume": 301760,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1715,6 +2157,9 @@
       "previous_avg_volume": 1241785,
       "price_change_pct": -42.86,
       "last_close": 0.196,
+      "recent_avg_dollar_volume": 1745844,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1726,6 +2171,23 @@
       "previous_avg_volume": 41550,
       "price_change_pct": -67.82,
       "last_close": 0.84,
+      "recent_avg_dollar_volume": 465533,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "INBKZ",
+      "name": "First Internet Bancorp - Fixed-to-Floating Rate Subordinated Notes Due 2029",
+      "exchange": "NASDAQ",
+      "volume_multiple": 5.92,
+      "recent_avg_volume": 11104,
+      "previous_avg_volume": 1875,
+      "price_change_pct": -0.3,
+      "last_close": 25.1,
+      "recent_avg_dollar_volume": 278567,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1737,6 +2199,9 @@
       "previous_avg_volume": 9725,
       "price_change_pct": 0.42,
       "last_close": 7.18,
+      "recent_avg_dollar_volume": 451383,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1748,6 +2213,9 @@
       "previous_avg_volume": 634070,
       "price_change_pct": -23.08,
       "last_close": 0.4,
+      "recent_avg_dollar_volume": 1529688,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1759,6 +2227,9 @@
       "previous_avg_volume": 545,
       "price_change_pct": 0.18,
       "last_close": 10.91,
+      "recent_avg_dollar_volume": 35350,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1770,6 +2241,9 @@
       "previous_avg_volume": 8085,
       "price_change_pct": 0.4,
       "last_close": 10.14,
+      "recent_avg_dollar_volume": 477333,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1781,6 +2255,9 @@
       "previous_avg_volume": 43465,
       "price_change_pct": -25.98,
       "last_close": 4.9,
+      "recent_avg_dollar_volume": 1522124,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1792,6 +2269,9 @@
       "previous_avg_volume": 4947,
       "price_change_pct": -42.31,
       "last_close": 3.9,
+      "recent_avg_dollar_volume": 192766,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1803,6 +2283,9 @@
       "previous_avg_volume": 639375,
       "price_change_pct": -19.36,
       "last_close": 0.429,
+      "recent_avg_dollar_volume": 1714789,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1814,6 +2297,9 @@
       "previous_avg_volume": 58440,
       "price_change_pct": -44.05,
       "last_close": 0.47,
+      "recent_avg_dollar_volume": 230806,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1825,6 +2311,9 @@
       "previous_avg_volume": 109880,
       "price_change_pct": -7.38,
       "last_close": 1.38,
+      "recent_avg_dollar_volume": 979331,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1836,18 +2325,10 @@
       "previous_avg_volume": 10905,
       "price_change_pct": -0.1,
       "last_close": 10.0,
+      "recent_avg_dollar_volume": 601676,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
-    },
-    {
-      "symbol": "SVCCU",
-      "name": "Stellar V Capital Corp. - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 5.52,
-      "recent_avg_volume": 55,
-      "previous_avg_volume": 10,
-      "price_change_pct": 1.36,
-      "last_close": 10.8558,
-      "direction": "flat_up"
     },
     {
       "symbol": "HPAI",
@@ -1858,18 +2339,10 @@
       "previous_avg_volume": 314090,
       "price_change_pct": -23.3,
       "last_close": 0.316,
+      "recent_avg_dollar_volume": 518301,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
-    },
-    {
-      "symbol": "MUZEU",
-      "name": "Muzero Acquisition Corp - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 5.5,
-      "recent_avg_volume": 110,
-      "previous_avg_volume": 20,
-      "price_change_pct": 0.0,
-      "last_close": 10.1,
-      "direction": "flat_up"
     },
     {
       "symbol": "SHFS",
@@ -1880,6 +2353,23 @@
       "previous_avg_volume": 21391,
       "price_change_pct": -19.41,
       "last_close": 1.47,
+      "recent_avg_dollar_volume": 202152,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "MGRD",
+      "name": "Affiliated Managers Group, Inc. 4.200% Junior Subordinated Notes due 2061",
+      "exchange": "NYSE",
+      "volume_multiple": 5.41,
+      "recent_avg_volume": 49925,
+      "previous_avg_volume": 9220,
+      "price_change_pct": -1.52,
+      "last_close": 14.27,
+      "recent_avg_dollar_volume": 726763,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1891,6 +2381,9 @@
       "previous_avg_volume": 89945,
       "price_change_pct": -4.45,
       "last_close": 4.94,
+      "recent_avg_dollar_volume": 2234392,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1902,6 +2395,9 @@
       "previous_avg_volume": 20930,
       "price_change_pct": 0.1,
       "last_close": 10.235,
+      "recent_avg_dollar_volume": 1129831,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1913,6 +2409,9 @@
       "previous_avg_volume": 220805,
       "price_change_pct": -8.24,
       "last_close": 0.312,
+      "recent_avg_dollar_volume": 374574,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1924,6 +2423,9 @@
       "previous_avg_volume": 7635,
       "price_change_pct": 0.6,
       "last_close": 10.06,
+      "recent_avg_dollar_volume": 394287,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -1935,6 +2437,9 @@
       "previous_avg_volume": 159513,
       "price_change_pct": -60.01,
       "last_close": 1.91,
+      "recent_avg_dollar_volume": 2150663,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1946,6 +2451,9 @@
       "previous_avg_volume": 39175,
       "price_change_pct": -13.27,
       "last_close": 1.96,
+      "recent_avg_dollar_volume": 397955,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1957,6 +2465,9 @@
       "previous_avg_volume": 110905,
       "price_change_pct": -8.62,
       "last_close": 0.53,
+      "recent_avg_dollar_volume": 311749,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1968,6 +2479,9 @@
       "previous_avg_volume": 248295,
       "price_change_pct": -40.66,
       "last_close": 0.813,
+      "recent_avg_dollar_volume": 1318087,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1979,6 +2493,9 @@
       "previous_avg_volume": 185425,
       "price_change_pct": -50.43,
       "last_close": 1.71,
+      "recent_avg_dollar_volume": 1960126,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -1990,6 +2507,9 @@
       "previous_avg_volume": 34710,
       "price_change_pct": -27.31,
       "last_close": 22.52,
+      "recent_avg_dollar_volume": 4715118,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2001,6 +2521,9 @@
       "previous_avg_volume": 21000,
       "price_change_pct": -25.57,
       "last_close": 2.3,
+      "recent_avg_dollar_volume": 256677,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2012,6 +2535,9 @@
       "previous_avg_volume": 274255,
       "price_change_pct": 0.33,
       "last_close": 0.905,
+      "recent_avg_dollar_volume": 1331179,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2023,6 +2549,9 @@
       "previous_avg_volume": 72295,
       "price_change_pct": -15.19,
       "last_close": 0.821,
+      "recent_avg_dollar_volume": 294927,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2034,6 +2563,9 @@
       "previous_avg_volume": 39195,
       "price_change_pct": 0.3,
       "last_close": 10.04,
+      "recent_avg_dollar_volume": 1921776,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2045,6 +2577,9 @@
       "previous_avg_volume": 1647620,
       "price_change_pct": -30.0,
       "last_close": 0.847,
+      "recent_avg_dollar_volume": 9837767,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2056,6 +2591,9 @@
       "previous_avg_volume": 10405,
       "price_change_pct": 0.4,
       "last_close": 7.44,
+      "recent_avg_dollar_volume": 370024,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2067,6 +2605,9 @@
       "previous_avg_volume": 84670,
       "price_change_pct": -15.88,
       "last_close": 0.4106,
+      "recent_avg_dollar_volume": 172757,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2078,6 +2619,9 @@
       "previous_avg_volume": 1265190,
       "price_change_pct": -53.88,
       "last_close": 4.58,
+      "recent_avg_dollar_volume": 35845156,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2089,6 +2633,9 @@
       "previous_avg_volume": 21530,
       "price_change_pct": -0.59,
       "last_close": 10.05,
+      "recent_avg_dollar_volume": 1043108,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2100,6 +2647,9 @@
       "previous_avg_volume": 7875,
       "price_change_pct": 0.39,
       "last_close": 10.35,
+      "recent_avg_dollar_volume": 389331,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2111,6 +2661,9 @@
       "previous_avg_volume": 9971549,
       "price_change_pct": -33.33,
       "last_close": 0.16,
+      "recent_avg_dollar_volume": 8722211,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2122,6 +2675,23 @@
       "previous_avg_volume": 10190,
       "price_change_pct": -0.33,
       "last_close": 1.52,
+      "recent_avg_dollar_volume": 75520,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "PMTU",
+      "name": "PennyMac Mortgage Investment Trust 8.50% Senior Notes due 2028",
+      "exchange": "NYSE",
+      "volume_multiple": 4.69,
+      "recent_avg_volume": 5629,
+      "previous_avg_volume": 1200,
+      "price_change_pct": -2.66,
+      "last_close": 25.25,
+      "recent_avg_dollar_volume": 144117,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2133,18 +2703,10 @@
       "previous_avg_volume": 155865,
       "price_change_pct": -19.42,
       "last_close": 13.73,
+      "recent_avg_dollar_volume": 12106632,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
-    },
-    {
-      "symbol": "PGACU",
-      "name": "Pantages Capital Acquisition Corporation - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 4.63,
-      "recent_avg_volume": 1283,
-      "previous_avg_volume": 277,
-      "price_change_pct": 0.09,
-      "last_close": 10.85,
-      "direction": "flat_up"
     },
     {
       "symbol": "BEBE",
@@ -2155,6 +2717,23 @@
       "previous_avg_volume": 2240,
       "price_change_pct": 0.6,
       "last_close": 10.04,
+      "recent_avg_dollar_volume": 103076,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "flat_up"
+    },
+    {
+      "symbol": "FRSX",
+      "name": "Foresight Autonomous Holdings Ltd. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 4.57,
+      "recent_avg_volume": 215450,
+      "previous_avg_volume": 47120,
+      "price_change_pct": 0.0,
+      "last_close": 1.09,
+      "recent_avg_dollar_volume": 262216,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2166,6 +2745,9 @@
       "previous_avg_volume": 14355,
       "price_change_pct": 0.5,
       "last_close": 10.0,
+      "recent_avg_dollar_volume": 651539,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2177,6 +2759,9 @@
       "previous_avg_volume": 10830,
       "price_change_pct": -0.2,
       "last_close": 10.08,
+      "recent_avg_dollar_volume": 489738,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2188,6 +2773,9 @@
       "previous_avg_volume": 3655138,
       "price_change_pct": -9.51,
       "last_close": 4.09,
+      "recent_avg_dollar_volume": 84171238,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2199,6 +2787,9 @@
       "previous_avg_volume": 309710,
       "price_change_pct": -52.7,
       "last_close": 0.315,
+      "recent_avg_dollar_volume": 488150,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2210,6 +2801,9 @@
       "previous_avg_volume": 1755,
       "price_change_pct": -5.86,
       "last_close": 14.79,
+      "recent_avg_dollar_volume": 119778,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2221,6 +2815,9 @@
       "previous_avg_volume": 7110,
       "price_change_pct": 0.0,
       "last_close": 9.84,
+      "recent_avg_dollar_volume": 307218,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2232,18 +2829,38 @@
       "previous_avg_volume": 1762780,
       "price_change_pct": -3.18,
       "last_close": 32.6,
+      "recent_avg_dollar_volume": 278486766,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
-      "symbol": "HAVAU",
-      "name": "Harvard Ave Acquisition Corporation - Unit",
+      "symbol": "DAVA",
+      "name": "Endava plc American Depositary Shares (each representing one Class A Ordinary Share)",
+      "exchange": "NYSE",
+      "volume_multiple": 4.3,
+      "recent_avg_volume": 807255,
+      "previous_avg_volume": 187700,
+      "price_change_pct": -42.26,
+      "last_close": 1.79,
+      "recent_avg_dollar_volume": 1680730,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "VCRE",
+      "name": "Vicore Pharma Holding AB - American Depositary Shares",
       "exchange": "NASDAQ",
-      "volume_multiple": 4.24,
-      "recent_avg_volume": 1080,
-      "previous_avg_volume": 255,
-      "price_change_pct": 0.68,
-      "last_close": 10.3,
-      "direction": "flat_up"
+      "volume_multiple": 4.22,
+      "recent_avg_volume": 31340,
+      "previous_avg_volume": 7430,
+      "price_change_pct": -14.09,
+      "last_close": 9.51,
+      "recent_avg_dollar_volume": 324322,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
     },
     {
       "symbol": "ILAG",
@@ -2254,6 +2871,9 @@
       "previous_avg_volume": 895,
       "price_change_pct": -4.14,
       "last_close": 2.78,
+      "recent_avg_dollar_volume": 12042,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2265,6 +2885,9 @@
       "previous_avg_volume": 14555,
       "price_change_pct": -0.3,
       "last_close": 10.07,
+      "recent_avg_dollar_volume": 618017,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2276,6 +2899,9 @@
       "previous_avg_volume": 167235,
       "price_change_pct": -72.47,
       "last_close": 2.15,
+      "recent_avg_dollar_volume": 2961728,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2287,6 +2913,9 @@
       "previous_avg_volume": 190890,
       "price_change_pct": -18.74,
       "last_close": 8.8,
+      "recent_avg_dollar_volume": 7495275,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2298,6 +2927,9 @@
       "previous_avg_volume": 750,
       "price_change_pct": -26.92,
       "last_close": 4.32,
+      "recent_avg_dollar_volume": 16018,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2309,6 +2941,9 @@
       "previous_avg_volume": 1098190,
       "price_change_pct": -31.07,
       "last_close": 65.79,
+      "recent_avg_dollar_volume": 271721262,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2320,6 +2955,9 @@
       "previous_avg_volume": 38500,
       "price_change_pct": -47.17,
       "last_close": 10.83,
+      "recent_avg_dollar_volume": 1838439,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2331,6 +2969,9 @@
       "previous_avg_volume": 5820,
       "price_change_pct": -1.83,
       "last_close": 2.15,
+      "recent_avg_dollar_volume": 51740,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2342,6 +2983,9 @@
       "previous_avg_volume": 13650,
       "price_change_pct": -29.0,
       "last_close": 0.71,
+      "recent_avg_dollar_volume": 45867,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2353,6 +2997,9 @@
       "previous_avg_volume": 6910,
       "price_change_pct": 0.48,
       "last_close": 10.42,
+      "recent_avg_dollar_volume": 292081,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2364,6 +3011,9 @@
       "previous_avg_volume": 168070,
       "price_change_pct": 2.59,
       "last_close": 13.46,
+      "recent_avg_dollar_volume": 9278720,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "flat_up"
     },
     {
@@ -2375,6 +3025,9 @@
       "previous_avg_volume": 51600,
       "price_change_pct": -22.22,
       "last_close": 1.82,
+      "recent_avg_dollar_volume": 410572,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2386,6 +3039,9 @@
       "previous_avg_volume": 417023,
       "price_change_pct": -4.0,
       "last_close": 2.4,
+      "recent_avg_dollar_volume": 3995794,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2397,6 +3053,9 @@
       "previous_avg_volume": 795,
       "price_change_pct": -0.2,
       "last_close": 9.97,
+      "recent_avg_dollar_volume": 31787,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2408,6 +3067,9 @@
       "previous_avg_volume": 89485,
       "price_change_pct": -20.6,
       "last_close": 5.82,
+      "recent_avg_dollar_volume": 2007690,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2419,6 +3081,9 @@
       "previous_avg_volume": 1005110,
       "price_change_pct": -45.14,
       "last_close": 1.92,
+      "recent_avg_dollar_volume": 10674721,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2430,6 +3095,9 @@
       "previous_avg_volume": 1003375,
       "price_change_pct": -42.65,
       "last_close": 1.21,
+      "recent_avg_dollar_volume": 5974299,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2441,6 +3109,9 @@
       "previous_avg_volume": 135555,
       "price_change_pct": -35.11,
       "last_close": 7.78,
+      "recent_avg_dollar_volume": 5967389,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2452,6 +3123,23 @@
       "previous_avg_volume": 1552525,
       "price_change_pct": -68.19,
       "last_close": 0.16,
+      "recent_avg_dollar_volume": 1668512,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "VSA",
+      "name": "VisionSys AI Inc. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.9,
+      "recent_avg_volume": 876855,
+      "previous_avg_volume": 224820,
+      "price_change_pct": -33.03,
+      "last_close": 2.21,
+      "recent_avg_dollar_volume": 3111288,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2463,6 +3151,9 @@
       "previous_avg_volume": 5660,
       "price_change_pct": -11.24,
       "last_close": 47.94,
+      "recent_avg_dollar_volume": 1148771,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2474,6 +3165,9 @@
       "previous_avg_volume": 16365,
       "price_change_pct": -11.26,
       "last_close": 28.38,
+      "recent_avg_dollar_volume": 1904765,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2485,6 +3179,9 @@
       "previous_avg_volume": 7335,
       "price_change_pct": 0.41,
       "last_close": 10.182,
+      "recent_avg_dollar_volume": 285995,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2496,6 +3193,9 @@
       "previous_avg_volume": 7000,
       "price_change_pct": 0.1,
       "last_close": 10.19,
+      "recent_avg_dollar_volume": 272765,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2507,6 +3207,9 @@
       "previous_avg_volume": 109755,
       "price_change_pct": -40.56,
       "last_close": 1.07,
+      "recent_avg_dollar_volume": 550096,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2518,6 +3221,9 @@
       "previous_avg_volume": 1097335,
       "price_change_pct": -12.01,
       "last_close": 2.49,
+      "recent_avg_dollar_volume": 12466634,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2529,6 +3235,9 @@
       "previous_avg_volume": 9355,
       "price_change_pct": 0.2,
       "last_close": 10.02,
+      "recent_avg_dollar_volume": 354204,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2540,6 +3249,37 @@
       "previous_avg_volume": 5935,
       "price_change_pct": -15.51,
       "last_close": 22.0,
+      "recent_avg_dollar_volume": 520541,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "TLX",
+      "name": "Telix Pharmaceuticals Limited - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.75,
+      "recent_avg_volume": 495070,
+      "previous_avg_volume": 132015,
+      "price_change_pct": 1.11,
+      "last_close": 10.97,
+      "recent_avg_dollar_volume": 5836851,
+      "is_spac_like": false,
+      "practical": true,
+      "direction": "flat_up"
+    },
+    {
+      "symbol": "YMT",
+      "name": "Yimutian Inc. - American Depositary Shares; each representing 25 Class A ordinary shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.74,
+      "recent_avg_volume": 2521570,
+      "previous_avg_volume": 673505,
+      "price_change_pct": -50.0,
+      "last_close": 1.25,
+      "recent_avg_dollar_volume": 4506050,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2551,6 +3291,9 @@
       "previous_avg_volume": 109260,
       "price_change_pct": -15.73,
       "last_close": 6.455,
+      "recent_avg_dollar_volume": 2804350,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2562,6 +3305,9 @@
       "previous_avg_volume": 13180,
       "price_change_pct": -31.52,
       "last_close": 7.3,
+      "recent_avg_dollar_volume": 492991,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2573,6 +3319,9 @@
       "previous_avg_volume": 3790,
       "price_change_pct": -7.73,
       "last_close": 5.01,
+      "recent_avg_dollar_volume": 69779,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2584,6 +3333,9 @@
       "previous_avg_volume": 8510,
       "price_change_pct": 0.0,
       "last_close": 10.07,
+      "recent_avg_dollar_volume": 317047,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2595,6 +3347,9 @@
       "previous_avg_volume": 11655,
       "price_change_pct": 0.3,
       "last_close": 9.98,
+      "recent_avg_dollar_volume": 427887,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2606,6 +3361,23 @@
       "previous_avg_volume": 13055,
       "price_change_pct": -15.53,
       "last_close": 10.39,
+      "recent_avg_dollar_volume": 530081,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "HEPS",
+      "name": "D-Market Electronic Services & Trading - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.63,
+      "recent_avg_volume": 629305,
+      "previous_avg_volume": 173285,
+      "price_change_pct": -6.11,
+      "last_close": 2.46,
+      "recent_avg_dollar_volume": 1634100,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2617,6 +3389,9 @@
       "previous_avg_volume": 670420,
       "price_change_pct": -38.02,
       "last_close": 37.19,
+      "recent_avg_dollar_volume": 100531275,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2628,6 +3403,9 @@
       "previous_avg_volume": 6560,
       "price_change_pct": 0.2,
       "last_close": 10.2,
+      "recent_avg_dollar_volume": 240189,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2639,6 +3417,9 @@
       "previous_avg_volume": 230310,
       "price_change_pct": -39.35,
       "last_close": 0.649,
+      "recent_avg_dollar_volume": 663474,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2650,6 +3431,9 @@
       "previous_avg_volume": 111648,
       "price_change_pct": -75.51,
       "last_close": 4.22,
+      "recent_avg_dollar_volume": 2456778,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2661,6 +3445,9 @@
       "previous_avg_volume": 6075,
       "price_change_pct": -5.27,
       "last_close": 10.43,
+      "recent_avg_dollar_volume": 231695,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2672,6 +3459,9 @@
       "previous_avg_volume": 7925,
       "price_change_pct": 0.4,
       "last_close": 10.02,
+      "recent_avg_dollar_volume": 282856,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2683,6 +3473,9 @@
       "previous_avg_volume": 605,
       "price_change_pct": -26.47,
       "last_close": 2.5,
+      "recent_avg_dollar_volume": 6501,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2694,6 +3487,9 @@
       "previous_avg_volume": 36755,
       "price_change_pct": -9.66,
       "last_close": 10.19,
+      "recent_avg_dollar_volume": 1506809,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2705,6 +3501,9 @@
       "previous_avg_volume": 72260,
       "price_change_pct": 0.2,
       "last_close": 10.09,
+      "recent_avg_dollar_volume": 2586591,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2716,6 +3515,9 @@
       "previous_avg_volume": 106575,
       "price_change_pct": -30.49,
       "last_close": 3.67,
+      "recent_avg_dollar_volume": 1911829,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2727,6 +3529,9 @@
       "previous_avg_volume": 52945,
       "price_change_pct": -28.66,
       "last_close": 8.86,
+      "recent_avg_dollar_volume": 1683878,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2738,6 +3543,9 @@
       "previous_avg_volume": 238415,
       "price_change_pct": -24.74,
       "last_close": 14.75,
+      "recent_avg_dollar_volume": 14333360,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2749,17 +3557,9 @@
       "previous_avg_volume": 2620345,
       "price_change_pct": -6.19,
       "last_close": 1.06,
-      "direction": "down"
-    },
-    {
-      "symbol": "YHNAU",
-      "name": "YHN Acquisition I Limited - Unit",
-      "exchange": "NASDAQ",
-      "volume_multiple": 3.54,
-      "recent_avg_volume": 36,
-      "previous_avg_volume": 10,
-      "price_change_pct": -1.18,
-      "last_close": 10.91,
+      "recent_avg_dollar_volume": 10989896,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2771,6 +3571,9 @@
       "previous_avg_volume": 15070,
       "price_change_pct": -60.54,
       "last_close": 6.61,
+      "recent_avg_dollar_volume": 605689,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2782,6 +3585,9 @@
       "previous_avg_volume": 835435,
       "price_change_pct": -32.88,
       "last_close": 0.49,
+      "recent_avg_dollar_volume": 1745493,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2793,6 +3599,9 @@
       "previous_avg_volume": 6300,
       "price_change_pct": -0.49,
       "last_close": 4.07,
+      "recent_avg_dollar_volume": 91508,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2804,6 +3613,9 @@
       "previous_avg_volume": 368550,
       "price_change_pct": -21.79,
       "last_close": 3.05,
+      "recent_avg_dollar_volume": 4444155,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2815,6 +3627,9 @@
       "previous_avg_volume": 486850,
       "price_change_pct": -76.53,
       "last_close": 0.23,
+      "recent_avg_dollar_volume": 526809,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2826,6 +3641,9 @@
       "previous_avg_volume": 800,
       "price_change_pct": -0.94,
       "last_close": 26.25,
+      "recent_avg_dollar_volume": 74773,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2837,6 +3655,9 @@
       "previous_avg_volume": 30910,
       "price_change_pct": -0.1,
       "last_close": 10.3,
+      "recent_avg_dollar_volume": 1116361,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2848,6 +3669,9 @@
       "previous_avg_volume": 32130,
       "price_change_pct": 0.2,
       "last_close": 9.98,
+      "recent_avg_dollar_volume": 1121157,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2859,6 +3683,9 @@
       "previous_avg_volume": 11195,
       "price_change_pct": 1.16,
       "last_close": 10.88,
+      "recent_avg_dollar_volume": 422252,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2870,6 +3697,9 @@
       "previous_avg_volume": 2120415,
       "price_change_pct": -41.77,
       "last_close": 15.03,
+      "recent_avg_dollar_volume": 112304670,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2881,6 +3711,9 @@
       "previous_avg_volume": 247245,
       "price_change_pct": -26.01,
       "last_close": 7.85,
+      "recent_avg_dollar_volume": 8170951,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2892,6 +3725,9 @@
       "previous_avg_volume": 89295,
       "price_change_pct": -42.68,
       "last_close": 0.47,
+      "recent_avg_dollar_volume": 162844,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2903,6 +3739,9 @@
       "previous_avg_volume": 94520,
       "price_change_pct": -0.48,
       "last_close": 10.45,
+      "recent_avg_dollar_volume": 3416212,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2914,6 +3753,9 @@
       "previous_avg_volume": 1790,
       "price_change_pct": -4.43,
       "last_close": 12.29,
+      "recent_avg_dollar_volume": 76787,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2925,6 +3767,9 @@
       "previous_avg_volume": 438975,
       "price_change_pct": -24.49,
       "last_close": 1.48,
+      "recent_avg_dollar_volume": 2731385,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2936,6 +3781,9 @@
       "previous_avg_volume": 186645,
       "price_change_pct": -54.46,
       "last_close": 1.02,
+      "recent_avg_dollar_volume": 1032670,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2947,6 +3795,9 @@
       "previous_avg_volume": 325390,
       "price_change_pct": -44.63,
       "last_close": 17.83,
+      "recent_avg_dollar_volume": 27110734,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2958,6 +3809,9 @@
       "previous_avg_volume": 10315,
       "price_change_pct": 0.0,
       "last_close": 10.07,
+      "recent_avg_dollar_volume": 354996,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -2969,6 +3823,9 @@
       "previous_avg_volume": 98815,
       "price_change_pct": -20.26,
       "last_close": 4.37,
+      "recent_avg_dollar_volume": 2540906,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -2980,6 +3837,9 @@
       "previous_avg_volume": 1615680,
       "price_change_pct": -18.4,
       "last_close": 56.53,
+      "recent_avg_dollar_volume": 310822925,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -2991,7 +3851,24 @@
       "previous_avg_volume": 5880,
       "price_change_pct": 0.39,
       "last_close": 10.38,
+      "recent_avg_dollar_volume": 206185,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
+    },
+    {
+      "symbol": "CGABL",
+      "name": "The Carlyle Group Inc. - 4.625% Subordinated Notes due 2061",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.37,
+      "recent_avg_volume": 53521,
+      "previous_avg_volume": 15895,
+      "price_change_pct": -6.63,
+      "last_close": 15.07,
+      "recent_avg_dollar_volume": 843737,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
     },
     {
       "symbol": "ETSS",
@@ -3002,6 +3879,9 @@
       "previous_avg_volume": 25865,
       "price_change_pct": 0.4,
       "last_close": 9.96,
+      "recent_avg_dollar_volume": 867080,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3013,6 +3893,23 @@
       "previous_avg_volume": 17960,
       "price_change_pct": -26.7,
       "last_close": 1.29,
+      "recent_avg_dollar_volume": 80247,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "MSC",
+      "name": "Studio City International Holdings Limited American depositary shares, each representing four  Class A ordinary shares",
+      "exchange": "NYSE",
+      "volume_multiple": 3.35,
+      "recent_avg_volume": 168135,
+      "previous_avg_volume": 50255,
+      "price_change_pct": -47.43,
+      "last_close": 0.92,
+      "recent_avg_dollar_volume": 151262,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3024,6 +3921,9 @@
       "previous_avg_volume": 11055,
       "price_change_pct": -17.65,
       "last_close": 0.7,
+      "recent_avg_dollar_volume": 27438,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3035,6 +3935,9 @@
       "previous_avg_volume": 583170,
       "price_change_pct": -12.46,
       "last_close": 10.12,
+      "recent_avg_dollar_volume": 20473559,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3046,6 +3949,23 @@
       "previous_avg_volume": 1688405,
       "price_change_pct": -39.57,
       "last_close": 0.852,
+      "recent_avg_dollar_volume": 4604949,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "SWKHL",
+      "name": "SWK Holdings Corporation - 9.00% Senior Notes due 2027",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.32,
+      "recent_avg_volume": 5748,
+      "previous_avg_volume": 1730,
+      "price_change_pct": -1.73,
+      "last_close": 25.04,
+      "recent_avg_dollar_volume": 144743,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3057,6 +3977,9 @@
       "previous_avg_volume": 228065,
       "price_change_pct": -10.91,
       "last_close": 1.96,
+      "recent_avg_dollar_volume": 1499864,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3068,6 +3991,9 @@
       "previous_avg_volume": 634065,
       "price_change_pct": -22.64,
       "last_close": 3.69,
+      "recent_avg_dollar_volume": 7911769,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3079,6 +4005,9 @@
       "previous_avg_volume": 805365,
       "price_change_pct": -14.58,
       "last_close": 17.34,
+      "recent_avg_dollar_volume": 51004982,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3090,6 +4019,9 @@
       "previous_avg_volume": 9825,
       "price_change_pct": 0.3,
       "last_close": 9.99,
+      "recent_avg_dollar_volume": 324457,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3101,6 +4033,9 @@
       "previous_avg_volume": 41920,
       "price_change_pct": -0.56,
       "last_close": 10.74,
+      "recent_avg_dollar_volume": 1482581,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3112,6 +4047,23 @@
       "previous_avg_volume": 47130,
       "price_change_pct": -5.23,
       "last_close": 14.86,
+      "recent_avg_dollar_volume": 2425856,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "SCAG",
+      "name": "Scage Future - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.24,
+      "recent_avg_volume": 751175,
+      "previous_avg_volume": 232130,
+      "price_change_pct": -19.13,
+      "last_close": 0.224,
+      "recent_avg_dollar_volume": 181687,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3123,6 +4075,9 @@
       "previous_avg_volume": 94990,
       "price_change_pct": -22.89,
       "last_close": 7.14,
+      "recent_avg_dollar_volume": 2371735,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3134,6 +4089,9 @@
       "previous_avg_volume": 357970,
       "price_change_pct": -18.19,
       "last_close": 32.29,
+      "recent_avg_dollar_volume": 44205647,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3145,6 +4103,9 @@
       "previous_avg_volume": 9735,
       "price_change_pct": 2.28,
       "last_close": 7.64,
+      "recent_avg_dollar_volume": 229052,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3156,6 +4117,9 @@
       "previous_avg_volume": 62590,
       "price_change_pct": -15.19,
       "last_close": 7.48,
+      "recent_avg_dollar_volume": 1592098,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3167,6 +4131,9 @@
       "previous_avg_volume": 129705,
       "price_change_pct": -22.97,
       "last_close": 7.88,
+      "recent_avg_dollar_volume": 2943114,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3178,6 +4145,9 @@
       "previous_avg_volume": 125290,
       "price_change_pct": 0.28,
       "last_close": 10.68,
+      "recent_avg_dollar_volume": 4222818,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3189,6 +4159,9 @@
       "previous_avg_volume": 5605,
       "price_change_pct": 0.47,
       "last_close": 10.72,
+      "recent_avg_dollar_volume": 188859,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3200,6 +4173,9 @@
       "previous_avg_volume": 99745,
       "price_change_pct": -6.76,
       "last_close": 10.21,
+      "recent_avg_dollar_volume": 3828548,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3211,6 +4187,9 @@
       "previous_avg_volume": 454945,
       "price_change_pct": -15.4,
       "last_close": 29.93,
+      "recent_avg_dollar_volume": 46586416,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3222,6 +4201,9 @@
       "previous_avg_volume": 80100,
       "price_change_pct": -12.82,
       "last_close": 8.98,
+      "recent_avg_dollar_volume": 2361902,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3233,6 +4215,9 @@
       "previous_avg_volume": 12485,
       "price_change_pct": -6.45,
       "last_close": 8.7,
+      "recent_avg_dollar_volume": 347034,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3244,6 +4229,9 @@
       "previous_avg_volume": 426665,
       "price_change_pct": -10.79,
       "last_close": 10.25,
+      "recent_avg_dollar_volume": 14257990,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3255,6 +4243,9 @@
       "previous_avg_volume": 605080,
       "price_change_pct": -38.38,
       "last_close": 1.83,
+      "recent_avg_dollar_volume": 3731311,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3266,6 +4257,37 @@
       "previous_avg_volume": 48555,
       "price_change_pct": -0.59,
       "last_close": 10.05,
+      "recent_avg_dollar_volume": 1508257,
+      "is_spac_like": true,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "LGHL",
+      "name": "Lion Group Holding Ltd. - American Depositary Share",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.07,
+      "recent_avg_volume": 1144476,
+      "previous_avg_volume": 372288,
+      "price_change_pct": -40.08,
+      "last_close": 5.68,
+      "recent_avg_dollar_volume": 6909716,
+      "is_spac_like": false,
+      "practical": false,
+      "direction": "down"
+    },
+    {
+      "symbol": "FORTY",
+      "name": "Formula Systems (1985) Ltd. - American Depositary Shares",
+      "exchange": "NASDAQ",
+      "volume_multiple": 3.07,
+      "recent_avg_volume": 935,
+      "previous_avg_volume": 305,
+      "price_change_pct": -8.53,
+      "last_close": 114.99,
+      "recent_avg_dollar_volume": 108508,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3277,6 +4299,9 @@
       "previous_avg_volume": 48270,
       "price_change_pct": 0.19,
       "last_close": 10.32,
+      "recent_avg_dollar_volume": 1526641,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3288,6 +4313,9 @@
       "previous_avg_volume": 22800,
       "price_change_pct": 0.19,
       "last_close": 10.825,
+      "recent_avg_dollar_volume": 758208,
+      "is_spac_like": true,
+      "practical": false,
       "direction": "flat_up"
     },
     {
@@ -3299,6 +4327,9 @@
       "previous_avg_volume": 7825,
       "price_change_pct": -17.91,
       "last_close": 1.1,
+      "recent_avg_dollar_volume": 29716,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3310,6 +4341,9 @@
       "previous_avg_volume": 1122587,
       "price_change_pct": -8.79,
       "last_close": 2.8,
+      "recent_avg_dollar_volume": 9919326,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3321,6 +4355,9 @@
       "previous_avg_volume": 305185,
       "price_change_pct": -16.59,
       "last_close": 19.51,
+      "recent_avg_dollar_volume": 19819576,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3332,6 +4369,9 @@
       "previous_avg_volume": 381355,
       "price_change_pct": -8.03,
       "last_close": 11.22,
+      "recent_avg_dollar_volume": 13609245,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3343,6 +4383,9 @@
       "previous_avg_volume": 2580,
       "price_change_pct": -7.21,
       "last_close": 11.6732,
+      "recent_avg_dollar_volume": 95210,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     },
     {
@@ -3354,6 +4397,9 @@
       "previous_avg_volume": 105910,
       "price_change_pct": -11.14,
       "last_close": 24.48,
+      "recent_avg_dollar_volume": 8546856,
+      "is_spac_like": false,
+      "practical": true,
       "direction": "down"
     },
     {
@@ -3365,6 +4411,9 @@
       "previous_avg_volume": 36475,
       "price_change_pct": -27.87,
       "last_close": 0.44,
+      "recent_avg_dollar_volume": 63396,
+      "is_spac_like": false,
+      "practical": false,
       "direction": "down"
     }
   ]
