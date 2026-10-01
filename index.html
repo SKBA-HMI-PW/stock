@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>20일 거래량 3배 스캐너</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2c; --text:#eef3ff; --muted:#9ca9c3; --line:#24304a; --good:#55d187; --bad:#ff6b6b; --accent:#7aa2ff; }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,sans-serif}
+    .wrap{max-width:1200px;margin:auto;padding:24px 16px 48px}.title{font-size:28px;font-weight:800;margin:0 0 6px}.sub{color:var(--muted);margin-bottom:20px;line-height:1.55}
+    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.k{color:var(--muted);font-size:12px}.v{font-size:24px;font-weight:800;margin-top:4px}
+    .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.toolbar input,.toolbar select,.toolbar button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px}.toolbar input{min-width:230px}.toolbar button{cursor:pointer}.toolbar button:hover{border-color:var(--accent)}
+    .tablebox{overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;min-width:900px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#151f35;color:#cdd7ea;font-size:12px}th:nth-child(1),td:nth-child(1),th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}.ticker{font-weight:800}.down{color:var(--bad);font-weight:700}.flatup{color:var(--good);font-weight:700}.empty{padding:28px;color:var(--muted);text-align:center}.foot{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.5}
+    @media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}.title{font-size:22px}}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <h1 class="title">20일 거래량 3배 스캐너</h1>
+  <div class="sub">최근 20거래일 평균 거래량이 그 이전 20거래일 평균의 <b>3배 이상</b>이고, 최근 20거래일 주가 상승률이 <b>+3% 미만</b>인 미국 상장 주식을 찾습니다. 하락 종목은 🔻로 따로 표시합니다.</div>
+
+  <div class="cards">
+    <div class="card"><div class="k">검색 대상</div><div class="v" id="universe">-</div></div>
+    <div class="card"><div class="k">조건 통과</div><div class="v" id="matches">-</div></div>
+    <div class="card"><div class="k">하락 종목</div><div class="v" id="decliners">-</div></div>
+    <div class="card"><div class="k">데이터 실패</div><div class="v" id="failures">-</div></div>
+  </div>
+
+  <div class="toolbar">
+    <input id="search" placeholder="티커 또는 회사명 검색" />
+    <select id="direction">
+      <option value="all">전체</option>
+      <option value="flat_up">상승/보합만</option>
+      <option value="down">🔻 하락만</option>
+    </select>
+    <select id="sort">
+      <option value="volume_desc">거래량 배수 높은 순</option>
+      <option value="price_asc">20일 등락률 낮은 순</option>
+      <option value="price_desc">20일 등락률 높은 순</option>
+      <option value="symbol">티커 순</option>
+    </select>
+    <button id="csv">CSV 열기</button>
+    <button id="reload">새로고침</button>
+  </div>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr><th>티커</th><th>회사명</th><th>거래소</th><th>거래량 배수</th><th>최근20일 등락</th><th>최근 종가</th><th>최근20일 평균량</th><th>이전20일 평균량</th><th>구분</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="9" class="empty">데이터 불러오는 중…</td></tr></tbody>
+    </table>
+  </div>
+  <div class="foot" id="meta"></div>
+</div>
+<script>
+let payload = null;
+const fmt = new Intl.NumberFormat('en-US');
+const money = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:4});
+
+async function loadData(){
+  const res = await fetch('./data/results.json?ts=' + Date.now(), {cache:'no-store'});
+  if(!res.ok) throw new Error('results.json을 불러오지 못했습니다. GitHub Actions를 먼저 실행해 주세요.');
+  payload = await res.json();
+  document.getElementById('universe').textContent = fmt.format(payload.universe_count || 0);
+  document.getElementById('matches').textContent = fmt.format(payload.match_count || 0);
+  document.getElementById('failures').textContent = fmt.format(payload.data_failure_count || 0);
+  const downs = (payload.results||[]).filter(x=>x.direction==='down').length;
+  document.getElementById('decliners').textContent = fmt.format(downs);
+  document.getElementById('meta').textContent = '마지막 업데이트(UTC): ' + (payload.generated_at_utc || '-') + ' · ETF 제외 · 하락 종목 포함';
+  render();
+}
+
+function render(){
+  if(!payload) return;
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const dir = document.getElementById('direction').value;
+  const sort = document.getElementById('sort').value;
+  let rows = [...(payload.results||[])];
+  if(q) rows = rows.filter(r => r.symbol.toLowerCase().includes(q) || (r.name||'').toLowerCase().includes(q));
+  if(dir !== 'all') rows = rows.filter(r=>r.direction===dir);
+  rows.sort((a,b)=>{
+    if(sort==='price_asc') return a.price_change_pct-b.price_change_pct;
+    if(sort==='price_desc') return b.price_change_pct-a.price_change_pct;
+    if(sort==='symbol') return a.symbol.localeCompare(b.symbol);
+    return b.volume_multiple-a.volume_multiple;
+  });
+  const tbody = document.getElementById('rows');
+  if(!rows.length){ tbody.innerHTML='<tr><td colspan="9" class="empty">조건에 맞는 종목이 없습니다.</td></tr>'; return; }
+  tbody.innerHTML = rows.map(r=>{
+    const d = r.direction==='down';
+    return `<tr>
+      <td class="ticker">${r.symbol}</td>
+      <td>${escapeHtml(r.name||'')}</td>
+      <td>${escapeHtml(r.exchange||'')}</td>
+      <td>${r.volume_multiple.toFixed(2)}×</td>
+      <td class="${d?'down':'flatup'}">${r.price_change_pct>0?'+':''}${r.price_change_pct.toFixed(2)}%</td>
+      <td>${money.format(r.last_close)}</td>
+      <td>${fmt.format(r.recent_avg_volume)}</td>
+      <td>${fmt.format(r.previous_avg_volume)}</td>
+      <td class="${d?'down':'flatup'}">${d?'🔻 하락':'상승/보합'}</td>
+    </tr>`;
+  }).join('');
+}
+function escapeHtml(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[c]));}
+['search','direction','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+document.getElementById('reload').onclick=()=>loadData().catch(showError);
+document.getElementById('csv').onclick=()=>window.open('./data/results.csv','_blank');
+function showError(e){document.getElementById('rows').innerHTML=`<tr><td colspan="9" class="empty">${escapeHtml(e.message)}</td></tr>`;}
+loadData().catch(showError);
+</script>
+</body>
+</html>
