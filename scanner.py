@@ -27,6 +27,12 @@ BATCH_SIZE = 100
 SLEEP_BETWEEN_BATCHES_SEC = 0.35
 PERIOD = "4mo"
 
+# Practical-mode filters
+PRACTICAL_MIN_PRICE_EXCLUSIVE = 10.0
+PRACTICAL_MIN_PREV_AVG_VOLUME = 100_000
+PRACTICAL_MIN_DOLLAR_VOLUME = 5_000_000
+SPAC_NAME_PATTERN = r"\b(acquisition corp\.?|acquisition corporation|acquisition company|acquisition co\.?|blank check)\b"
+
 
 def _read_pipe_table(url: str) -> pd.DataFrame:
     r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0"})
@@ -69,11 +75,10 @@ def load_us_stock_universe() -> pd.DataFrame:
     # User asked for stocks, so remove ETFs and Nasdaq test issues.
     universe = universe[(universe["test_issue"] != "Y") & (universe["etf"] != "Y")]
 
-    # Exclude obviously non-common-stock structures that Yahoo frequently cannot price cleanly.
-    bad_name_terms = (
-        "Warrant", "Rights", "Right", "Units", "Unit ", "Preferred", "Depositary", "Notes due",
-    )
-    mask_bad = universe["name"].str.contains("|".join(bad_name_terms), case=False, na=False, regex=True)
+    # Exclude exchange-traded structures that are not ordinary/common equity.
+    # Keep ADR/ADS listings because many are ordinary operating-company shares.
+    bad_name_pattern = r"\b(warrant|warrants|right|rights|unit|units|preferred|preference)\b"
+    mask_bad = universe["name"].str.contains(bad_name_pattern, case=False, na=False, regex=True)
     universe = universe[~mask_bad]
 
     universe = universe.drop_duplicates("symbol").sort_values("symbol").reset_index(drop=True)
@@ -144,7 +149,9 @@ def scan_batch(batch_meta: pd.DataFrame) -> tuple[list[dict], list[str]]:
 
         prev_vol = volumes.iloc[-(RECENT_DAYS + PREVIOUS_DAYS):-RECENT_DAYS].mean()
         recent_vol = volumes.iloc[-RECENT_DAYS:].mean()
-        if not math.isfinite(prev_vol) or prev_vol <= 0 or not math.isfinite(recent_vol):
+        recent_dollar_vol = (closes.iloc[-RECENT_DAYS:] * volumes.iloc[-RECENT_DAYS:]).mean()
+        if (not math.isfinite(prev_vol) or prev_vol <= 0 or
+                not math.isfinite(recent_vol) or not math.isfinite(recent_dollar_vol)):
             failures.append(original)
             continue
 
@@ -160,15 +167,27 @@ def scan_batch(batch_meta: pd.DataFrame) -> tuple[list[dict], list[str]]:
 
         if volume_multiple >= VOLUME_MULTIPLE_MIN and price_change_pct < PRICE_CHANGE_MAX_PCT:
             meta = meta_lookup[original]
+            company_name = str(meta.get("name", ""))
+            is_spac_like = bool(pd.Series([company_name]).str.contains(
+                SPAC_NAME_PATTERN, case=False, na=False, regex=True
+            ).iloc[0])
             results.append({
                 "symbol": original,
-                "name": meta.get("name", ""),
+                "name": company_name,
                 "exchange": meta.get("exchange", ""),
                 "volume_multiple": round(volume_multiple, 2),
                 "recent_avg_volume": int(round(recent_vol)),
                 "previous_avg_volume": int(round(prev_vol)),
                 "price_change_pct": round(price_change_pct, 2),
                 "last_close": round(float(end_close), 4),
+                "recent_avg_dollar_volume": int(round(recent_dollar_vol)),
+                "is_spac_like": is_spac_like,
+                "practical": bool(
+                    end_close > PRACTICAL_MIN_PRICE_EXCLUSIVE
+                    and prev_vol >= PRACTICAL_MIN_PREV_AVG_VOLUME
+                    and recent_dollar_vol >= PRACTICAL_MIN_DOLLAR_VOLUME
+                    and not is_spac_like
+                ),
                 "direction": "down" if price_change_pct < 0 else "flat_up",
             })
 
@@ -202,9 +221,17 @@ def main():
             "max_price_change_pct_exclusive": PRICE_CHANGE_MAX_PCT,
             "decliners_included": True,
             "etfs_excluded": True,
+            "practical_mode": {
+                "min_price_exclusive": PRACTICAL_MIN_PRICE_EXCLUSIVE,
+                "min_previous_avg_volume": PRACTICAL_MIN_PREV_AVG_VOLUME,
+                "min_recent_avg_dollar_volume": PRACTICAL_MIN_DOLLAR_VOLUME,
+                "units_warrants_rights_preferred_excluded": True,
+                "spac_names_excluded": True
+            },
         },
         "universe_count": total,
         "match_count": len(all_results),
+        "practical_match_count": sum(1 for r in all_results if r.get("practical")),
         "data_failure_count": len(all_failures),
         "results": all_results,
     }

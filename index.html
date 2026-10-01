@@ -5,36 +5,44 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>20일 거래량 3배 스캐너</title>
   <style>
-    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2c; --text:#eef3ff; --muted:#9ca9c3; --line:#24304a; --good:#55d187; --bad:#ff6b6b; --accent:#7aa2ff; }
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2c; --text:#eef3ff; --muted:#9ca9c3; --line:#24304a; --good:#55d187; --bad:#ff6b6b; --accent:#7aa2ff; --warn:#f3c969; }
     *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Noto Sans KR,sans-serif}
-    .wrap{max-width:1200px;margin:auto;padding:24px 16px 48px}.title{font-size:28px;font-weight:800;margin:0 0 6px}.sub{color:var(--muted);margin-bottom:20px;line-height:1.55}
-    .cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.k{color:var(--muted);font-size:12px}.v{font-size:24px;font-weight:800;margin-top:4px}
+    .wrap{max-width:1320px;margin:auto;padding:24px 16px 48px}.title{font-size:28px;font-weight:800;margin:0 0 6px}.sub{color:var(--muted);margin-bottom:20px;line-height:1.55}
+    .cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-bottom:14px}.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px}.k{color:var(--muted);font-size:12px}.v{font-size:24px;font-weight:800;margin-top:4px}
     .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0}.toolbar input,.toolbar select,.toolbar button{background:var(--panel);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px}.toolbar input{min-width:230px}.toolbar button{cursor:pointer}.toolbar button:hover{border-color:var(--accent)}
-    .tablebox{overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;min-width:900px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#151f35;color:#cdd7ea;font-size:12px}th:nth-child(1),td:nth-child(1),th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}.ticker{font-weight:800}.down{color:var(--bad);font-weight:700}.flatup{color:var(--good);font-weight:700}.empty{padding:28px;color:var(--muted);text-align:center}.foot{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.5}
-    @media(max-width:760px){.cards{grid-template-columns:repeat(2,1fr)}.title{font-size:22px}}
+    .mode{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:3px}.mode button{border:0;background:transparent;color:var(--muted);padding:8px 13px;border-radius:8px}.mode button.active{background:var(--accent);color:#071124;font-weight:800}
+    .rule{background:#10182a;border:1px solid var(--line);border-radius:12px;padding:11px 13px;color:var(--muted);font-size:13px;line-height:1.55;margin-bottom:12px}.rule b{color:var(--text)}
+    .tablebox{overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:14px}table{width:100%;border-collapse:collapse;min-width:1120px}th,td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#151f35;color:#cdd7ea;font-size:12px}th:nth-child(1),td:nth-child(1),th:nth-child(2),td:nth-child(2),th:nth-child(3),td:nth-child(3){text-align:left}.ticker{font-weight:800}.down{color:var(--bad);font-weight:700}.flatup{color:var(--good);font-weight:700}.practical{color:var(--warn);font-weight:700}.empty{padding:28px;color:var(--muted);text-align:center}.foot{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.5}
+    @media(max-width:900px){.cards{grid-template-columns:repeat(2,1fr)}.title{font-size:22px}}
   </style>
 </head>
 <body>
 <div class="wrap">
   <h1 class="title">20일 거래량 3배 스캐너</h1>
-  <div class="sub">최근 20거래일 평균 거래량이 그 이전 20거래일 평균의 <b>3배 이상</b>이고, 최근 20거래일 주가 상승률이 <b>+3% 미만</b>인 미국 상장 주식을 찾습니다. 하락 종목은 🔻로 따로 표시합니다.</div>
+  <div class="sub">최근 20거래일 평균 거래량이 그 이전 20거래일 평균의 <b>3배 이상</b>이고, 최근 20거래일 주가 상승률이 <b>+3% 미만</b>인 미국 상장 주식을 찾습니다. 하락 종목은 🔻로 표시합니다.</div>
 
   <div class="cards">
     <div class="card"><div class="k">검색 대상</div><div class="v" id="universe">-</div></div>
-    <div class="card"><div class="k">조건 통과</div><div class="v" id="matches">-</div></div>
-    <div class="card"><div class="k">하락 종목</div><div class="v" id="decliners">-</div></div>
+    <div class="card"><div class="k">전체 조건 통과</div><div class="v" id="matches">-</div></div>
+    <div class="card"><div class="k">실전용 통과</div><div class="v" id="practicalMatches">-</div></div>
+    <div class="card"><div class="k">현재 보기 중 하락</div><div class="v" id="decliners">-</div></div>
     <div class="card"><div class="k">데이터 실패</div><div class="v" id="failures">-</div></div>
   </div>
 
   <div class="toolbar">
+    <div class="mode" aria-label="필터 모드">
+      <button id="modeAll" class="active" type="button">전체</button>
+      <button id="modePractical" type="button">실전용</button>
+    </div>
     <input id="search" placeholder="티커 또는 회사명 검색" />
     <select id="direction">
-      <option value="all">전체</option>
+      <option value="all">상승/하락 전체</option>
       <option value="flat_up">상승/보합만</option>
       <option value="down">🔻 하락만</option>
     </select>
     <select id="sort">
       <option value="volume_desc">거래량 배수 높은 순</option>
+      <option value="dollar_desc">최근 거래대금 높은 순</option>
       <option value="price_asc">20일 등락률 낮은 순</option>
       <option value="price_desc">20일 등락률 높은 순</option>
       <option value="symbol">티커 순</option>
@@ -43,18 +51,32 @@
     <button id="reload">새로고침</button>
   </div>
 
+  <div class="rule" id="ruleBox">
+    <b>전체 모드:</b> 거래량 3배 이상 + 최근 20일 상승률 +3% 미만. 하락 종목 포함.
+  </div>
+
   <div class="tablebox">
     <table>
-      <thead><tr><th>티커</th><th>회사명</th><th>거래소</th><th>거래량 배수</th><th>최근20일 등락</th><th>최근 종가</th><th>최근20일 평균량</th><th>이전20일 평균량</th><th>구분</th></tr></thead>
-      <tbody id="rows"><tr><td colspan="9" class="empty">데이터 불러오는 중…</td></tr></tbody>
+      <thead><tr><th>티커</th><th>회사명</th><th>거래소</th><th>거래량 배수</th><th>최근20일 등락</th><th>최근 종가</th><th>최근20일 평균량</th><th>이전20일 평균량</th><th>최근20일 평균 거래대금</th><th>구분</th></tr></thead>
+      <tbody id="rows"><tr><td colspan="10" class="empty">데이터 불러오는 중…</td></tr></tbody>
     </table>
   </div>
   <div class="foot" id="meta"></div>
 </div>
 <script>
 let payload = null;
+let mode = 'all';
 const fmt = new Intl.NumberFormat('en-US');
+const compact = new Intl.NumberFormat('en-US',{notation:'compact',maximumFractionDigits:1});
 const money = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:4});
+
+function isPractical(r){
+  // Backward-compatible with an older results.json until the next Action run.
+  if(typeof r.practical === 'boolean') return r.practical;
+  const n=(r.name||'').toLowerCase();
+  const spac=/\b(acquisition corp\.?|acquisition corporation|acquisition company|acquisition co\.?|blank check)\b/i.test(n);
+  return Number(r.last_close)>10 && Number(r.previous_avg_volume)>=100000 && Number(r.recent_avg_volume)*Number(r.last_close)>=5000000 && !spac;
+}
 
 async function loadData(){
   const res = await fetch('./data/results.json?ts=' + Date.now(), {cache:'no-store'});
@@ -62,10 +84,19 @@ async function loadData(){
   payload = await res.json();
   document.getElementById('universe').textContent = fmt.format(payload.universe_count || 0);
   document.getElementById('matches').textContent = fmt.format(payload.match_count || 0);
+  document.getElementById('practicalMatches').textContent = fmt.format((payload.results||[]).filter(isPractical).length);
   document.getElementById('failures').textContent = fmt.format(payload.data_failure_count || 0);
-  const downs = (payload.results||[]).filter(x=>x.direction==='down').length;
-  document.getElementById('decliners').textContent = fmt.format(downs);
-  document.getElementById('meta').textContent = '마지막 업데이트(UTC): ' + (payload.generated_at_utc || '-') + ' · ETF 제외 · 하락 종목 포함';
+  document.getElementById('meta').textContent = '마지막 업데이트(UTC): ' + (payload.generated_at_utc || '-') + ' · ETF 제외 · Unit/Warrant/Right/Preferred 제외 · 실전용은 SPAC 제외 · 하락 종목 포함';
+  render();
+}
+
+function setMode(next){
+  mode = next;
+  document.getElementById('modeAll').classList.toggle('active', mode==='all');
+  document.getElementById('modePractical').classList.toggle('active', mode==='practical');
+  document.getElementById('ruleBox').innerHTML = mode==='practical'
+    ? '<b>실전용 모드:</b> 기본 조건 + 현재가 $10 초과 + 이전 20일 평균 거래량 10만주 이상 + 최근 20일 평균 거래대금 $5M 이상 + SPAC(Acquisition Corp/Company 등) 제외. Unit/Warrant/Right/Preferred는 스캔 단계에서 제외.'
+    : '<b>전체 모드:</b> 거래량 3배 이상 + 최근 20일 상승률 +3% 미만. 하락 종목 포함.';
   render();
 }
 
@@ -75,18 +106,22 @@ function render(){
   const dir = document.getElementById('direction').value;
   const sort = document.getElementById('sort').value;
   let rows = [...(payload.results||[])];
+  if(mode==='practical') rows = rows.filter(isPractical);
   if(q) rows = rows.filter(r => r.symbol.toLowerCase().includes(q) || (r.name||'').toLowerCase().includes(q));
   if(dir !== 'all') rows = rows.filter(r=>r.direction===dir);
   rows.sort((a,b)=>{
+    if(sort==='dollar_desc') return Number(b.recent_avg_dollar_volume||b.recent_avg_volume*b.last_close)-Number(a.recent_avg_dollar_volume||a.recent_avg_volume*a.last_close);
     if(sort==='price_asc') return a.price_change_pct-b.price_change_pct;
     if(sort==='price_desc') return b.price_change_pct-a.price_change_pct;
     if(sort==='symbol') return a.symbol.localeCompare(b.symbol);
     return b.volume_multiple-a.volume_multiple;
   });
+  document.getElementById('decliners').textContent = fmt.format(rows.filter(x=>x.direction==='down').length);
   const tbody = document.getElementById('rows');
-  if(!rows.length){ tbody.innerHTML='<tr><td colspan="9" class="empty">조건에 맞는 종목이 없습니다.</td></tr>'; return; }
+  if(!rows.length){ tbody.innerHTML='<tr><td colspan="10" class="empty">조건에 맞는 종목이 없습니다.</td></tr>'; return; }
   tbody.innerHTML = rows.map(r=>{
     const d = r.direction==='down';
+    const rdv = Number(r.recent_avg_dollar_volume || (Number(r.recent_avg_volume)*Number(r.last_close)));
     return `<tr>
       <td class="ticker">${r.symbol}</td>
       <td>${escapeHtml(r.name||'')}</td>
@@ -96,15 +131,18 @@ function render(){
       <td>${money.format(r.last_close)}</td>
       <td>${fmt.format(r.recent_avg_volume)}</td>
       <td>${fmt.format(r.previous_avg_volume)}</td>
-      <td class="${d?'down':'flatup'}">${d?'🔻 하락':'상승/보합'}</td>
+      <td>$${compact.format(rdv)}</td>
+      <td class="${d?'down':'flatup'}">${d?'🔻 하락':'상승/보합'}${isPractical(r)?' · <span class="practical">실전</span>':''}</td>
     </tr>`;
   }).join('');
 }
 function escapeHtml(s){return String(s).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[c]));}
 ['search','direction','sort'].forEach(id=>document.getElementById(id).addEventListener('input',render));
+document.getElementById('modeAll').onclick=()=>setMode('all');
+document.getElementById('modePractical').onclick=()=>setMode('practical');
 document.getElementById('reload').onclick=()=>loadData().catch(showError);
 document.getElementById('csv').onclick=()=>window.open('./data/results.csv','_blank');
-function showError(e){document.getElementById('rows').innerHTML=`<tr><td colspan="9" class="empty">${escapeHtml(e.message)}</td></tr>`;}
+function showError(e){document.getElementById('rows').innerHTML=`<tr><td colspan="10" class="empty">${escapeHtml(e.message)}</td></tr>`;}
 loadData().catch(showError);
 </script>
 </body>
