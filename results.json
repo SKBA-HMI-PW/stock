@@ -1,0 +1,15 @@
+{
+  "generated_at_utc": null,
+  "criteria": {
+    "recent_days": 20,
+    "previous_days": 20,
+    "min_volume_multiple": 3.0,
+    "max_price_change_pct_exclusive": 3.0,
+    "decliners_included": true,
+    "etfs_excluded": true
+  },
+  "universe_count": 0,
+  "match_count": 0,
+  "data_failure_count": 0,
+  "results": []
+}
