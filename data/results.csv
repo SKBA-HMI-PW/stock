@@ -1,247 +1,253 @@
 symbol,name,exchange,volume_multiple,recent_avg_volume,previous_avg_volume,price_change_pct,last_close,recent_avg_dollar_volume,is_spac_like,practical,direction
-WORX,SCWorx Corp. - Common Stock,NASDAQ,7120.13,11961825,1680,-50.98,1.82,35257114,False,False,down
-RBNE,Robin Energy Ltd. - Common Stock,NASDAQ,807.64,24047560,29775,-93.0,0.161,4740491,False,False,down
-SHFS,"SHF Holdings, Inc. - Class A Common Stock",NASDAQ,786.89,128723125,163585,-94.0,0.078,26834969,False,False,down
-AMTD,"AMTD IDEA Group American Depositary Shares, each representing three hundred sixty (360) Class A Ordinary Shares",NYSE,560.36,87304,156,-55.48,20.675,2933487,False,False,down
-LNKS,Linkers Industries Limited - Class A Ordinary Shares,NASDAQ,368.95,8349290,22630,-34.52,0.605,17830622,False,False,down
-CLWT,Euro Tech Holdings Company Limited - Ordinary Shares,NASDAQ,314.76,3671655,11665,1.49,1.36,7817795,False,False,flat_up
-DRMA,"Dermata Therapeutics, Inc. - Common Stock",NASDAQ,296.39,8779020,29620,-24.23,0.841,7971282,False,False,down
-MEGL,Magic Empire Global Limited - Class A Ordinary Shares,NASDAQ,265.4,2188230,8245,-82.32,0.177,694191,False,False,down
-VCIG,VCI Global Limited - Ordinary Share,NASDAQ,244.4,11108165,45450,-86.85,0.196,6690413,False,False,down
-BRAI,Braiin Limited - Common Stock,NASDAQ,211.4,5997305,28370,-42.37,3.06,20303285,False,False,down
-SPRC,SciSparc Ltd. - Ordinary Shares,NASDAQ,194.56,4177100,21470,-84.35,0.712,6515941,False,False,down
-DKI,DarkIris Inc. - Class A Ordinary Shares,NASDAQ,194.21,1247866,6425,-96.68,2.14,10474899,False,False,down
-MI,NFT Limited Class A Ordinary Share,NYSE American,188.34,14431635,76625,-51.41,0.43,65330689,False,False,down
-LPCN,Lipocine Inc. - Common Stock,NASDAQ,155.99,5678980,36405,-26.57,1.52,12304571,False,False,down
-XXII,"22nd Century Group, Inc - Common Stock",NASDAQ,143.49,35304605,246040,-89.98,0.085,6004010,False,False,down
-AAME,Atlantic American Corporation - Common Stock,NASDAQ,129.68,2587745,19955,-13.08,1.13,3742813,False,False,down
-YRD,"Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",NYSE,122.92,7090710,57685,-48.58,0.471,4646098,False,False,down
-SBFM,Sunshine Biopharma Inc. - Common stock,NASDAQ,122.8,890514,7252,-75.8,3.33,9450065,False,False,down
-RCT,RedCloud Holdings plc - Ordinary Shares,NASDAQ,116.83,52718855,451255,-68.21,0.062,3942461,False,False,down
-AZTR,Azitra Inc Common Stock,NYSE American,104.65,8031682,76748,-41.32,0.757,11986875,False,False,down
-XELB,"Xcel Brands, Inc - Common Stock",NASDAQ,103.58,2038005,19675,-47.2,0.3741,1095321,False,False,down
-CJMB,Callan JMB Inc. - Common Stock,NASDAQ,87.02,8176925,93965,-80.75,0.437,4420138,False,False,down
-SXTC,"China SXT Pharmaceuticals, Inc. - Class A Ordinary Shares",NASDAQ,80.56,680379,8445,-98.8,3.55,27158908,False,False,down
-GENK,"GEN Restaurant Group, Inc. - Class A Common Stock",NASDAQ,75.82,3024550,39890,-2.98,1.63,5105829,False,False,down
-SVCC,Stellar V Capital Corp. - Class A Ordinary Shares,NASDAQ,67.91,175895,2590,1.12,10.84,1882445,False,False,flat_up
-MNDR,Mobile-health Network Solutions - Class A Ordinary Shares,NASDAQ,63.62,10490195,164900,-25.98,0.94,30256868,False,False,down
-ZNB,Zeta Network Group - Class A Ordinary Shares,NASDAQ,60.51,1841345,30430,-51.89,0.51,2466509,False,False,down
-PRSO,Peraso Inc. - Common Stock,NASDAQ,59.87,13189705,220290,-4.35,0.44,7470948,False,False,down
-ILAG,Intelligent Living Application Group Inc. - Ordinary Shares,NASDAQ,58.85,221870,3770,-24.46,2.1,733001,False,False,down
-HODO,House of Doge Inc. - Common Stock,NASDAQ,55.82,44926650,804885,-72.15,0.044,3920753,False,False,down
-TC,Token Cat Limited - American Depositary Shares,NASDAQ,54.32,2358550,43420,-33.53,1.11,3124340,False,False,down
-GTEN,"Gores Holdings X, Inc. - Class A ordinary shares",NASDAQ,51.78,58765,1135,-0.57,10.43,612436,False,False,down
-NWGL,CL Workshop Group Limited - American Depositary Shares,NASDAQ,51.58,55887225,1083550,-93.83,0.087,9372853,False,False,down
-NTCL,NETCLASS TECHNOLOGY INC - Class A Ordinary Shares,NASDAQ,45.4,1016605,22390,-72.31,0.54,1484380,False,False,down
-GIXI,Gix Internet Ltd. - Ordinary Shares,NASDAQ,44.18,2422205,54820,-0.47,4.23,11115650,False,False,down
-TRAD,APEX Tech Acquisition Inc. Ordinary Shares,NYSE,41.81,52890,1265,0.3,10.09,532424,False,False,flat_up
-TGL,Treasure Global Inc. - Common Stock,NASDAQ,40.11,22683570,565565,-82.85,0.235,7964324,False,False,down
-FUFU,BitFuFu Inc. - Class A Ordinary Shares,NASDAQ,39.04,2897150,74210,-20.5,1.105,3423597,False,False,down
-CETX,Cemtrex Inc. - Common Stock,NASDAQ,37.29,1934735,51885,-12.32,1.78,3445602,False,False,down
-BURU,"Nuburu, Inc. Common Stock",NYSE American,37.1,49931395,1345690,-63.53,0.372,19878249,False,False,down
-NEWTO,"NewtekOne, Inc. - 8.50% Fixed Rate Senior Notes due 2031",NASDAQ,35.66,357,10,0.87,25.47,9014,False,False,flat_up
-CENN,Cenntro Inc. - Common Stock,NASDAQ,35.21,457590,12995,-55.81,1.755,994149,False,False,down
-FRTT,Fort Technology Inc. - Common Shares,NASDAQ,33.91,10837105,319540,-32.5,0.54,7700035,False,False,down
-LCFY,Locafy Limited - Ordinary Share,NASDAQ,33.18,204380,6160,-52.02,1.15,400058,False,False,down
-NXTS,Nexentis Technologies Inc. - Common Stock,NASDAQ,28.7,1159045,40390,-55.87,0.631,1152637,False,False,down
-MRM,MEDIROM Healthcare Technologies Inc. - American Depositary Share,NASDAQ,27.32,396175,14500,-47.58,0.346,149157,False,False,down
-BDAI,"Biddance AI Systems, Inc. - Class A Ordinary Share",NASDAQ,27.27,1086255,39830,-3.45,2.52,2822790,False,False,down
-CDT,CDT Equity Inc. - Common Stock,NASDAQ,26.24,11424965,435331,-93.84,0.077,1438418,False,False,down
-GP,GreenPower Motor Company Inc. - Common Shares,NASDAQ,26.21,1058977,40407,-59.39,1.19,1824482,False,False,down
-AMAN,Amanat Acquisition Corp - Class A Ordinary Shares,NASDAQ,25.46,69510,2730,-4.61,10.15,708108,True,False,down
-FACT,FACT II Acquisition Corp. - Class A Ordinary Shares,NASDAQ,25.2,103205,4095,0.46,10.77,1108289,True,False,flat_up
-VIVK,"Vivakor, Inc. - Common Stock",NASDAQ,24.25,2188575,90241,-65.52,1.5,7513676,False,False,down
-CIGL,Concorde International Group Ltd - Class A Ordinary Shares,NASDAQ,23.37,1275745,54585,-42.11,0.22,334122,False,False,down
-BDCI,BTC Development Corp. - Class A Ordinary Shares,NASDAQ,22.42,119835,5345,0.25,10.175,1217046,False,False,flat_up
-CCTG,CCSC Technology International Holdings Limited - Class A Ordinary Shares,NASDAQ,22.2,1440590,64905,-33.11,0.301,658630,False,False,down
-NOEM,CO2 Energy Transition Corp. - Common Stock,NASDAQ,21.56,970,45,-0.85,10.5,10210,False,False,down
-CPHI,"China Pharma Holdings, Inc. Common Stock",NYSE American,20.91,4715420,225475,0.0,0.65,4093131,False,False,flat_up
-HUDI,"Huadi International Group Co., Ltd. - Ordinary Shares",NASDAQ,20.65,402365,19485,-24.53,0.523,230806,False,False,down
-SRTM,Stratum Holdings Corp. - Common Stock,NASDAQ,20.31,7006690,344967,-89.35,0.196,2587173,False,False,down
-CCZ,Comcast Holdings ZONES,NYSE,20.07,301,15,2.54,64.5,19278,False,False,flat_up
-PLUT,Plutus Financial Group Limited - Ordinary Shares,NASDAQ,20.0,51595,2580,-28.16,1.76,105224,False,False,down
-AMOD,"Alpha Modus Holdings, Inc. - Class A Common Stock",NASDAQ,19.95,19282930,966730,-12.82,1.02,49117547,False,False,down
+WORX,SCWorx Corp. - Common Stock,NASDAQ,6384.25,11970465,1875,-61.45,1.6,35270428,False,False,down
+RBNE,Robin Energy Ltd. - Common Stock,NASDAQ,849.99,25406280,29890,-93.82,0.139,4929663,False,False,down
+SHFS,"SHF Holdings, Inc. - Class A Common Stock",NASDAQ,663.83,131970395,198801,-94.75,0.062,26998191,False,False,down
+AMTD,"AMTD IDEA Group American Depositary Shares, each representing three hundred sixty (360) Class A Ordinary Shares",NYSE,536.57,87514,163,-56.0,19.64,2937377,False,False,down
+LNKS,Linkers Industries Limited - Class A Ordinary Shares,NASDAQ,434.24,8350365,19230,-41.29,0.59,17830775,False,False,down
+DRMA,"Dermata Therapeutics, Inc. - Common Stock",NASDAQ,345.65,8781225,25405,-29.86,0.775,7972700,False,False,down
+CLWT,Euro Tech Holdings Company Limited - Ordinary Shares,NASDAQ,324.28,3672505,11325,0.0,1.34,7818934,False,False,flat_up
+WFF,WF Holding Limited - Ordinary Shares,NASDAQ,237.04,3753036,15833,-97.55,1.5113,135087128,False,False,down
+MEGL,Magic Empire Global Limited - Class A Ordinary Shares,NASDAQ,236.93,2238980,9450,-82.21,0.163,701163,False,False,down
+SPRC,SciSparc Ltd. - Ordinary Shares,NASDAQ,214.52,4194985,19555,-85.68,0.676,6527466,False,False,down
+BRAI,Braiin Limited - Common Stock,NASDAQ,195.26,6072735,31100,-47.08,2.45,20469254,False,False,down
+DKI,DarkIris Inc. - Class A Ordinary Shares,NASDAQ,190.81,1274814,6681,-97.78,1.53,10499765,False,False,down
+MI,NFT Limited Class A Ordinary Share,NYSE American,167.93,14442010,86000,-55.48,0.398,65329312,False,False,down
+LPCN,Lipocine Inc. - Common Stock,NASDAQ,153.48,5682635,37025,-29.76,1.44,12308648,False,False,down
+XXII,"22nd Century Group, Inc - Common Stock",NASDAQ,143.58,36045895,251050,-92.34,0.07,6051785,False,False,down
+AAME,Atlantic American Corporation - Common Stock,NASDAQ,134.08,2591110,19325,-15.75,1.07,3746243,False,False,down
+RCT,RedCloud Holdings plc - Ordinary Shares,NASDAQ,132.37,54381380,410825,-69.95,0.058,4037878,False,False,down
+SBFM,Sunshine Biopharma Inc. - Common stock,NASDAQ,122.66,896446,7308,-78.04,2.93,9463832,False,False,down
+YRD,"Yiren Digital Ltd. American Depositary Shares, each representing two ordinary shares",NYSE,121.29,7096470,58510,-56.64,0.415,4646035,False,False,down
+SVCC,Stellar V Capital Corp. - Class A Ordinary Shares,NASDAQ,111.28,277080,2490,0.47,10.77,2972208,False,False,flat_up
+AZTR,Azitra Inc Common Stock,NYSE American,101.65,8068118,79375,-41.74,0.769,12012602,False,False,down
+XELB,"Xcel Brands, Inc - Common Stock",NASDAQ,98.72,2037995,20645,-43.67,0.3701,1094792,False,False,down
+CJMB,Callan JMB Inc. - Common Stock,NASDAQ,88.64,8199390,92505,-82.75,0.421,4423054,False,False,down
+FEDU,"Four Seasons Education (Cayman) Inc. American Depositary Shares, each ADS representing 10 ordinary shares",NYSE,88.41,7515,85,2.67,9.6,81850,False,False,flat_up
+GIXI,Gix Internet Ltd. - Ordinary Shares,NASDAQ,81.17,2423310,29855,-10.32,3.91,11119852,False,False,down
+SXTC,"China SXT Pharmaceuticals, Inc. - Class A Ordinary Shares",NASDAQ,77.79,685314,8810,-98.65,3.25,27082333,False,False,down
+GENK,"GEN Restaurant Group, Inc. - Class A Common Stock",NASDAQ,77.51,3034385,39150,-7.45,1.49,5120389,False,False,down
+PRSO,Peraso Inc. - Common Stock,NASDAQ,67.21,13214820,196630,-14.89,0.4,7480639,False,False,down
+MNDR,Mobile-health Network Solutions - Class A Ordinary Shares,NASDAQ,65.23,10821005,165900,-25.98,0.977,30579204,False,False,down
+TC,Token Cat Limited - American Depositary Shares,NASDAQ,62.92,2360995,37525,-40.24,1.01,3126704,False,False,down
+ILAG,Intelligent Living Application Group Inc. - Ordinary Shares,NASDAQ,58.77,222455,3785,-31.38,1.99,734142,False,False,down
+NWGL,CL Workshop Group Limited - American Depositary Shares,NASDAQ,53.66,56177055,1046895,-94.86,0.074,9392214,False,False,down
+BURU,"Nuburu, Inc. Common Stock",NYSE American,51.03,74896300,1467665,-72.4,0.287,27061327,False,False,down
+HUBC,Hub Cyber Security Ltd. - Ordinary Shares,NASDAQ,48.33,13770300,284894,-88.81,0.113,2198657,False,False,down
+NTCL,NETCLASS TECHNOLOGY INC - Class A Ordinary Shares,NASDAQ,48.22,1027070,21300,-79.33,0.403,1488141,False,False,down
+BDCI,BTC Development Corp. - Class A Ordinary Shares,NASDAQ,43.73,122435,2800,0.25,10.17,1243489,False,False,flat_up
+CENN,Cenntro Inc. - Common Stock,NASDAQ,41.59,519855,12500,-51.29,1.84,1107770,False,False,down
+FUFU,BitFuFu Inc. - Class A Ordinary Shares,NASDAQ,40.83,2901500,71055,-22.86,1.08,3427503,False,False,down
+TGL,Treasure Global Inc. - Common Stock,NASDAQ,39.73,22715780,571725,-83.57,0.212,7963092,False,False,down
+CETX,Cemtrex Inc. - Common Stock,NASDAQ,39.04,2009205,51470,-39.22,1.24,3541412,False,False,down
+GTEN,"Gores Holdings X, Inc. - Class A ordinary shares",NASDAQ,38.52,58545,1520,-0.38,10.43,610126,False,False,down
+NEWTO,"NewtekOne, Inc. - 8.50% Fixed Rate Senior Notes due 2031",NASDAQ,35.72,357,10,-0.59,25.1,9027,False,False,down
+VCIG,VCI Global Limited - Ordinary Share,NASDAQ,35.04,11871525,338795,-87.66,0.169,6464969,False,False,down
+VIVK,"Vivakor, Inc. - Common Stock",NASDAQ,33.82,2676645,79149,-81.27,0.8696,7920343,False,False,down
+FRTT,Fort Technology Inc. - Common Shares,NASDAQ,33.82,10837975,320420,-37.5,0.5,7699808,False,False,down
+LCFY,Locafy Limited - Ordinary Share,NASDAQ,30.32,204175,6735,-52.24,1.12,399075,False,False,down
+NXTS,Nexentis Technologies Inc. - Common Stock,NASDAQ,29.45,1168170,39670,-60.74,0.585,1157784,False,False,down
+BDAI,"Biddance AI Systems, Inc. - Class A Ordinary Share",NASDAQ,27.11,1090045,40210,-4.23,2.375,2831707,False,False,down
+GP,GreenPower Motor Company Inc. - Common Shares,NASDAQ,27.1,1060369,39132,-61.14,1.09,1824451,False,False,down
+CDT,CDT Equity Inc. - Common Stock,NASDAQ,24.04,11659115,485077,-93.13,0.068,1407382,False,False,down
+CIGL,Concorde International Group Ltd - Class A Ordinary Shares,NASDAQ,23.91,1279465,53505,-48.65,0.19,334685,False,False,down
+CCTG,CCSC Technology International Holdings Limited - Class A Ordinary Shares,NASDAQ,23.43,1441110,61495,-37.44,0.284,658406,False,False,down
+AMAN,Amanat Acquisition Corp - Class A Ordinary Shares,NASDAQ,22.61,87495,3870,-3.81,10.1,889280,True,False,down
+HUDI,"Huadi International Group Co., Ltd. - Ordinary Shares",NASDAQ,22.18,403680,18200,-25.55,0.51,231428,False,False,down
+MRM,MEDIROM Healthcare Technologies Inc. - American Depositary Share,NASDAQ,21.44,393025,18330,-42.31,0.33,147124,False,False,down
+CPHI,"China Pharma Holdings, Inc. Common Stock",NYSE American,20.64,4718600,228560,-6.06,0.62,4094865,False,False,down
+SRTM,Stratum Holdings Corp. - Common Stock,NASDAQ,20.32,7031245,345972,-88.78,0.175,2582908,False,False,down
+CCZ,Comcast Holdings ZONES,NYSE,20.0,300,15,2.54,64.5,19214,False,False,flat_up
+MACI,Melar Acquisition Corp. I - Class A Ordinary Shares,NASDAQ,17.89,45705,2555,-30.16,7.71,485221,True,False,down
 AACO,Abony Acquisition Corp. I - Class A Ordinary Share,NASDAQ,17.54,59030,3365,0.0,10.0,589350,True,False,flat_up
-GSRF,GSR IV Acquisition Corp. - Class A ordinary share,NASDAQ,17.44,81704,4685,0.39,10.29,838832,True,False,flat_up
-MACI,Melar Acquisition Corp. I - Class A Ordinary Shares,NASDAQ,17.36,44185,2545,-30.3,7.73,473535,True,False,down
-REED,"Reed's, Inc. Common Stock",NYSE American,16.73,3366555,201255,2.99,0.69,1431395,False,False,flat_up
-NEXR,Nexera Technologies Ltd - Ordinary Shares,NASDAQ,16.61,11393760,685800,-68.5,0.315,6268643,False,False,down
-GLED,GalaxyEdge Acquisition Corporation Ordinary Shares,NYSE,15.95,104735,6565,0.5,10.07,1054567,True,False,flat_up
-LGCL,Lucas GC Limited - Class A Ordinary Shares,NASDAQ,15.82,2344545,148215,-50.38,1.3,6563873,False,False,down
-LNAI,Lunai Bioworks Inc. - Common Stock,NASDAQ,15.68,728085,46445,-88.04,0.165,272549,False,False,down
-ARAI,Arrive AI Inc. - Common Stock,NASDAQ,15.5,13574665,876030,-43.98,0.121,2497767,False,False,down
-BRN,"Barnwell Industries, Inc. Common Stock",NYSE American,15.27,541885,35485,-6.38,0.88,518289,False,False,down
-HUBC,Hub Cyber Security Ltd. - Ordinary Shares,NASDAQ,14.69,3998790,272129,-86.89,0.135,1106217,False,False,down
-RUBI,Rubico Inc. - Common Stock,NASDAQ,14.47,2112176,145986,-44.26,0.654,1513726,False,False,down
-SMX,SMX (Security Matters) Public Limited Company - Ordinary Shares,NASDAQ,14.28,844355,59110,-71.59,1.75,1979604,False,False,down
-NXAT,Nexus Advanced Technologies Inc. - Ordinary Shares,NASDAQ,14.03,1438565,102500,-54.42,0.392,1005876,False,False,down
-YJ,Yunji Inc. - American Depository Shares,NASDAQ,13.99,1357540,97025,-25.45,1.23,2755161,False,False,down
-SXTP,"60 Degrees Pharmaceuticals, Inc. - Common Stock",NASDAQ,13.87,1133665,81715,-24.16,0.948,933639,False,False,down
-KCHV,Kochav Defense Acquisition Corp. - Class A Ordinary Shares,NASDAQ,13.49,51675,3830,0.57,10.52,542383,True,False,flat_up
-OFSSO,OFS Capital Corporation - 7.50% Notes due 2028,NASDAQ,13.42,1275,95,-2.29,25.405,32486,False,False,down
-VNME,Vendome Acquisition Corporation I - Class A Ordinary Shares,NASDAQ,13.36,45966,3440,0.1,10.34,473928,True,False,flat_up
-AARD,"Aardvark Therapeutics, Inc. - Common Stock",NASDAQ,13.19,1605875,121725,-72.68,1.44,2666633,False,False,down
-ISNR,Snow Rothschild Acquisition Corp. - Class A Ordinary Shares,NASDAQ,12.95,7510,580,-0.31,9.8,73710,True,False,down
-CYCU,"Cycurion, Inc. - Common Stock",NASDAQ,12.93,2739680,211945,-5.39,2.545,10232756,False,False,down
-EDTK,Skillful Craftsman Education Technology Limited - Ordinary Share,NASDAQ,12.35,70895,5740,-12.0,0.88,66929,False,False,down
-WTG,Wintergreen Acquisition Corp. - Ordinary Shares,NASDAQ,12.24,100875,8240,0.56,10.73,1075726,True,False,flat_up
-ROMA,Roma Green Finance Limited - Class A Ordinary Shares,NASDAQ,12.2,36710,3010,-23.91,6.62,255861,False,False,down
-FENG,"Phoenix New Media Limited American Depositary Shares, each representing 48 Class A ordinary shares.",NYSE,11.61,28205,2430,0.71,1.41,41087,False,False,flat_up
-PLMK,Plum Acquisition Corp. IV - Class A Ordinary Shares,NASDAQ,10.99,6540,595,-0.61,10.625,69497,True,False,down
-TOPP,Toppoint Holdings Inc. Common Stock,NYSE American,10.58,30004280,2835410,-7.2,0.116,5110343,False,False,down
-MOGU,MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares),NYSE,10.48,23275,2220,1.61,1.89,48585,False,False,flat_up
-SZZL,Sizzle Acquisition Corp. II - Class A ordinary shares,NASDAQ,10.47,78405,7490,0.48,10.53,823563,True,False,flat_up
-TCGX,TCGX Acquisition Corp. - Class A Ordinary Shares,NASDAQ,10.34,236390,22860,-17.88,10.06,2377199,True,False,down
-AUID,authID Inc. - Common Stock,NASDAQ,10.33,2457250,237925,-27.51,0.274,867293,False,False,down
-DIT,AMCON Distributing Company Common Stock,NYSE American,10.07,1510,150,-7.49,62.5,96374,False,False,down
-KAPA,"Kairos Pharma, Ltd. Common Stock",NYSE American,9.69,982840,101455,-65.38,0.54,997206,False,False,down
-LKSP,Lake Superior Acquisition Corp. - Class A Ordinary Shares,NASDAQ,9.58,57678,6020,0.49,10.3,592399,True,False,flat_up
-RPGL,Republic Power Group Limited - Class A Ordinary Shares,NASDAQ,9.39,184095,19597,-67.75,8.45,2080825,False,False,down
-SGRX,SANGRIX INC. - Class A Ordinary Shares,NASDAQ,9.24,9620970,1041730,-71.22,0.4,8557270,False,False,down
-EGHA,EGH Acquisition Corp. - Class A ordinary shares,NASDAQ,9.21,24305,2640,0.19,10.44,253287,True,False,flat_up
-CEPV,"Cantor Equity Partners V, Inc. - Class A Ordinary Shares",NASDAQ,9.08,63305,6975,-0.78,10.21,645871,False,False,down
-FMFC,Kandal M Venture Limited - Class A ordinary Shares,NASDAQ,8.96,157490,17585,-47.22,3.8,713365,False,False,down
-YOUL,Youlife Group Inc. - American Depositary Shares,NASDAQ,8.86,539245,60890,-35.32,0.26,159308,False,False,down
-BIYA,Baiya International Group Inc.  - Ordinary Shares,NASDAQ,8.84,6814500,770455,-24.07,1.23,14798152,False,False,down
-IZM,ICZOOM Group Inc. - Class A Ordinary Shares,NASDAQ,8.81,1149585,130437,-38.84,0.74,1428853,False,False,down
+EXYN,"Exyn Technologies, Inc. - Common Stock",NASDAQ,17.46,1305010,74725,-1.28,2.31,3544572,False,False,down
+NEXR,Nexera Technologies Ltd - Ordinary Shares,NASDAQ,16.59,11438055,689420,-75.62,0.245,6271218,False,False,down
+LGCL,Lucas GC Limited - Class A Ordinary Shares,NASDAQ,16.47,2343790,142335,-48.81,1.29,6560556,False,False,down
+RUBI,Rubico Inc. - Common Stock,NASDAQ,16.09,404218,25116,-84.39,2.7313,3386056,False,False,down
+ARAI,Arrive AI Inc. - Common Stock,NASDAQ,15.76,13692620,868665,-49.54,0.109,2510053,False,False,down
+OFSSO,OFS Capital Corporation - 7.50% Notes due 2028,NASDAQ,15.34,1304,85,-3.08,25.2,33222,False,False,down
+BRN,"Barnwell Industries, Inc. Common Stock",NYSE American,15.32,543850,35495,-11.22,0.87,519966,False,False,down
+MOGU,MOGU Inc. American Depositary Shares (each  representing 25 Class A Ordinary Shares),NYSE,15.09,23910,1585,1.61,1.89,49786,False,False,flat_up
+PLUT,Plutus Financial Group Limited - Ordinary Shares,NASDAQ,14.97,51940,3470,-47.92,1.38,104570,False,False,down
+HODO,House of Doge Inc. - Common Stock,NASDAQ,14.57,43102465,2957700,-72.41,0.04,3617618,False,False,down
+YJ,Yunji Inc. - American Depository Shares,NASDAQ,13.92,1359700,97660,-26.54,1.19,2756727,False,False,down
+NXAT,Nexus Advanced Technologies Inc. - Ordinary Shares,NASDAQ,13.7,1433910,104675,-57.94,0.368,1000337,False,False,down
+VNME,Vendome Acquisition Corporation I - Class A Ordinary Shares,NASDAQ,13.36,45970,3440,0.1,10.34,473969,True,False,flat_up
+AARD,"Aardvark Therapeutics, Inc. - Common Stock",NASDAQ,13.02,1622415,124645,-72.75,1.36,2662379,False,False,down
+SXTP,"60 Degrees Pharmaceuticals, Inc. - Common Stock",NASDAQ,12.69,1127510,88865,-32.37,0.94,923436,False,False,down
+EDTK,Skillful Craftsman Education Technology Limited - Ordinary Share,NASDAQ,12.5,72040,5765,-6.0,0.94,67998,False,False,down
+FENG,"Phoenix New Media Limited American Depositary Shares, each representing 48 Class A ordinary shares.",NYSE,12.37,28765,2325,-2.14,1.37,41853,False,False,down
+TOPP,Toppoint Holdings Inc. Common Stock,NYSE American,11.68,30049275,2572825,-5.6,0.118,5115634,False,False,down
+ROMA,Roma Green Finance Limited - Class A Ordinary Shares,NASDAQ,11.61,36735,3165,-25.23,6.43,255392,False,False,down
+TCGX,TCGX Acquisition Corp. - Class A Ordinary Shares,NASDAQ,11.43,238675,20880,-21.25,10.04,2399869,True,False,down
+NXGL,"NexGel, Inc - Common Stock",NASDAQ,10.84,246880,22775,0.86,3.51,1251947,False,False,flat_up
+DIT,AMCON Distributing Company Common Stock,NYSE American,10.51,1577,150,-7.49,62.5,100568,False,False,down
+PLMK,Plum Acquisition Corp. IV - Class A Ordinary Shares,NASDAQ,10.43,6520,625,-0.09,10.635,69284,True,False,down
+BDMD,Baird Medical Investment Holdings Ltd - Ordinary Share,NASDAQ,10.18,672895,66080,-78.7,0.16,143079,False,False,down
+BRBI,BRBI BR Partners S.A. - ADSs,NASDAQ,10.04,4570,455,-37.26,7.05,48175,False,False,down
+KAPA,"Kairos Pharma, Ltd. Common Stock",NYSE American,9.8,983920,100365,-66.03,0.53,996449,False,False,down
+CEPV,"Cantor Equity Partners V, Inc. - Class A Ordinary Shares",NASDAQ,9.53,66495,6975,-0.78,10.21,678441,False,False,down
+RAC,Rithm Acquisition Corp. Class A Ordinary Shares,NYSE,9.34,123091,13185,0.28,10.58,1301426,True,False,flat_up
+FMFC,Kandal M Venture Limited - Class A ordinary Shares,NASDAQ,9.25,158155,17092,-51.16,3.38,714500,False,False,down
+YOUL,Youlife Group Inc. - American Depositary Shares,NASDAQ,9.17,564460,61580,-37.88,0.246,165330,False,False,down
+HTCO,High-Trend International Group - Class A Ordinary Shares,NASDAQ,8.89,460555,51785,-43.35,1.32,647310,False,False,down
+RYOJ,"rYojbaba Co., Ltd. - Common Shares",NASDAQ,8.83,131130,14855,-11.23,2.53,376378,False,False,down
+IZM,ICZOOM Group Inc. - Class A Ordinary Shares,NASDAQ,8.81,1149520,130448,-43.17,0.682,1428334,False,False,down
+BIYA,Baiya International Group Inc.  - Ordinary Shares,NASDAQ,8.81,6810220,773440,-22.5,1.24,14790647,False,False,down
 UYSC,UY Scuti Acquisition Corp. - Ordinary Shares,NASDAQ,8.74,1485,170,-0.27,10.97,16209,True,False,down
-YHGJ,Yunhong Green CTI Ltd. - Common Stock,NASDAQ,8.69,32945,3790,2.79,2.95,90251,False,False,flat_up
-LUCD,Lucid Diagnostics Inc. - Common Stock,NASDAQ,8.56,13049720,1525030,-31.97,0.432,5526293,False,False,down
-HTCO,High-Trend International Group - Class A Ordinary Shares,NASDAQ,8.48,460260,54260,-40.08,1.42,649582,False,False,down
-BRBI,BRBI BR Partners S.A. - ADSs,NASDAQ,8.41,3825,455,-28.98,7.98,42922,False,False,down
-SNTI,"Senti Biosciences Holdings, Inc. - Common Stock",NASDAQ,8.36,9805270,1173040,-33.02,0.217,1899639,False,False,down
-RYOJ,"rYojbaba Co., Ltd. - Common Shares",NASDAQ,8.16,130735,16015,-11.75,2.675,375526,False,False,down
-MDXH,MDxHealth SA - Ordinary Shares,NASDAQ,8.15,1823955,223720,-68.58,0.181,418587,False,False,down
-FVAV,Fortress Value Acquisition Corp. V - Class A Ordinary Shares,NASDAQ,8.13,85004,10455,-1.63,10.0831,857139,True,False,down
-BGL,Blue Gold Limited - Class A ordinary shares,NASDAQ,8.07,2138635,264955,-36.04,0.126,291829,False,False,down
-RAC,Rithm Acquisition Corp. Class A Ordinary Shares,NYSE,8.05,123683,15365,0.19,10.57,1307672,True,False,flat_up
+MDXH,MDxHealth SA - Ordinary Shares,NASDAQ,8.67,1899075,219155,-71.45,0.163,429257,False,False,down
+SNTI,"Senti Biosciences Holdings, Inc. - Common Stock",NASDAQ,8.39,9877140,1177165,-48.76,0.165,1910519,False,False,down
+GSRF,GSR IV Acquisition Corp. - Class A ordinary share,NASDAQ,8.37,81946,9790,0.29,10.29,841476,True,False,flat_up
+WTG,Wintergreen Acquisition Corp. - Ordinary Shares,NASDAQ,8.26,97180,11765,0.28,10.67,1036413,True,False,flat_up
+FVAV,Fortress Value Acquisition Corp. V - Class A Ordinary Shares,NASDAQ,8.21,85005,10350,-1.66,10.08,857153,True,False,down
+LUCD,Lucid Diagnostics Inc. - Common Stock,NASDAQ,8.16,13022705,1595920,-35.41,0.405,5490333,False,False,down
+BGL,Blue Gold Limited - Class A ordinary shares,NASDAQ,8.12,2145775,264250,-37.89,0.118,291876,False,False,down
+SGLY,Singularity Future Technology Ltd. - Common Stock,NASDAQ,7.98,2908745,364680,-30.14,0.51,1559155,False,False,down
 TAVI,Tavia Acquisition Corp. - Ordinary Shares,NASDAQ,7.94,5795,730,0.74,10.85,62579,True,False,flat_up
-GUTS,"Fractyl Health, Inc. - Common Stock",NASDAQ,7.88,1175601,149250,-81.63,0.992,1955119,False,False,down
-BCSS,Bain Capital GSS Investment Corp. Class A Ordinary Shares,NYSE,7.78,170640,21940,-0.49,10.24,1741992,False,False,down
-INLX,"Intellinetics, Inc. Common Stock",NYSE American,7.74,30600,3955,-19.22,4.16,147554,False,False,down
-WENN,Wen Acquisition Corp - Class A Ordinary Shares,NASDAQ,7.67,228658,29820,0.29,10.45,2384357,True,False,flat_up
-SGLY,Singularity Future Technology Ltd. - Common Stock,NASDAQ,7.63,2805275,367595,-35.9,0.5,1507070,False,False,down
-CNEY,CN Energy Group Inc. - Class A Ordinary Shares,NASDAQ,7.62,464795,60965,-15.04,0.48,225124,False,False,down
-VJET,"Flyte Aviation, Inc. Common Stock",NYSE American,7.58,1171218,154530,-56.67,0.65,1525525,False,False,down
-HUHU,HUHUTECH International Group Inc. - Ordinary Shares,NASDAQ,7.27,530640,73000,-89.55,0.509,917460,False,False,down
-FRGT,"Freight Technologies, Inc. - Ordinary Shares",NASDAQ,7.21,4274882,593165,-63.63,0.942,10962952,False,False,down
-TPTS,"Terra Property Trust, Inc. 7.00% Senior Secured Notes due 2029",NYSE,7.19,6509,905,-10.21,13.01,86371,False,False,down
-FMST,Foremost Clean Energy Ltd. - Common Shares,NASDAQ,7.04,681595,96875,-0.33,0.609,373421,False,False,down
-POAS,Phaos Technology Holdings (Cayman) Limited Class A Ordinary Shares,NYSE American,7.0,97754,13966,-45.32,1.46,222515,False,False,down
-DYNC,Dynamix Corporation - Class A Ordinary Share,NASDAQ,6.9,227745,33015,0.64,10.98,2497912,False,False,flat_up
-CRAC,Crown Reserve Acquisition Corp. I - Class A Ordinary Shares,NASDAQ,6.84,39250,5740,0.2,10.26,402628,True,False,flat_up
-FCHL,Fitness Champs Holdings Limited - Ordinary Shares,NASDAQ,6.72,2986775,444475,-8.89,0.871,3092505,False,False,down
-OLOX,Olenox Industries Inc. - Common Stock,NASDAQ,6.65,14689280,2209105,-4.88,0.799,15572530,False,False,down
-TMTS,Spartacus Acquisition Corp. II - Class A Ordinary Shares,NASDAQ,6.59,219325,33290,0.0,10.03,2195137,True,False,flat_up
-ICU,SeaStar Medical Holding Corporation - Common Stock,NASDAQ,6.58,270510,41125,-38.4,2.31,919822,False,False,down
-SOUL,Soulpower Acquisition Corporation Class A Ordinary Shares,NYSE,6.55,62580,9550,0.29,10.52,656727,True,False,flat_up
-MTEN,Mingteng International Corporation Inc. - Class A Ordinary Shares,NASDAQ,6.38,4208460,660065,-14.62,0.841,4451819,False,False,down
-MMED,"MiniMed Group, Inc. - Common Stock",NASDAQ,6.33,18002075,2843815,-1.79,19.25,330504382,False,True,down
-MB,MasterBeef Group - Ordinary Shares,NASDAQ,6.32,46090,7290,-5.94,3.8,200731,False,False,down
-CHR,"Cheer Holding, Inc.  - Class A Ordinary Share",NASDAQ,6.31,210525,33350,-13.46,1.35,328412,False,False,down
-CEPS,"Cantor Equity Partners VI, Inc. - Class A Ordinary Shares",NASDAQ,6.3,25490,4045,-1.65,10.11,259638,False,False,down
-MMA,Mixed Martial Arts Group Limited Ordinary Shares,NYSE American,6.22,2682890,431270,-9.33,0.34,907552,False,False,down
-THRM,Gentherm Inc - Common Stock,NASDAQ,6.22,3088725,496235,-4.25,32.2,94126800,False,True,down
-OTAI,Starlink AI Acquisition Corporation Ordinary Shares,NYSE,6.2,25910,4180,1.1,10.11,261937,True,False,flat_up
-SCNX,"Scienture Holdings, Inc. - Common Stock",NASDAQ,6.15,410077,66718,-21.13,3.49,1586891,False,False,down
-BOF,BranchOut Food Inc. - Common Stock,NASDAQ,6.11,136875,22395,-54.33,1.74,315087,False,False,down
-VRAX,Virax Biolabs Group Limited - Ordinary Shares,NASDAQ,6.11,203610,33315,-41.07,1.32,455657,False,False,down
-POLA,"Polar Power, Inc. - Common Stock",NASDAQ,6.06,944925,155970,-50.0,0.56,818888,False,False,down
-CXII,Churchill Capital Corp XII - Class A Ordinary Shares,NASDAQ,5.94,57030,9595,-4.17,10.35,595537,False,False,down
-FERA,Fifth Era Acquisition Corp I - Class A Ordinary Shares,NASDAQ,5.89,122745,20825,0.19,10.57,1295630,True,False,flat_up
-QADR,QDRO Acquisition Corp. - Class A Ordinary Shares,NASDAQ,5.84,35945,6160,-0.1,10.01,359702,True,False,down
-MKDW,MKDWELL Tech Inc. - Ordinary Shares,NASDAQ,5.72,2176845,380665,-87.88,0.186,751834,False,False,down
-REVB,"Revelation Biosciences, Inc. - Common Stock",NASDAQ,5.7,22874,4015,-33.12,3.75,87386,False,False,down
-XTER,Karman Line Acquisition Corp. - Class A Ordinary Shares,NASDAQ,5.54,76410,13795,0.1,9.79,747602,True,False,flat_up
-BKHA,Black Hawk Acquisition Corporation - Class A Ordinary Shares,NASDAQ,5.53,50605,9155,-59.51,5.0,428246,True,False,down
-CHAR,Charlton Aria Acquisition Corporation - Class A Ordinary Shares,NASDAQ,5.49,65725,11965,0.18,10.99,722420,True,False,flat_up
-INLF,INLIF LIMITED - Class A Ordinary shares,NASDAQ,5.47,16764800,3062520,-93.47,0.265,4391020,False,False,down
-BEEM,Beam Global - Common Stock,NASDAQ,5.47,1803385,329495,-21.5,0.887,1733982,False,False,down
-YXT,YXT.COM GROUP HOLDING LIMITED - American Depository Shares,NASDAQ,5.43,79400,14615,-37.22,1.4,122571,False,False,down
-KFII,K&F Growth Acquisition Corp. II - Class A Ordinary shares,NASDAQ,5.29,217775,41165,0.47,10.73,2333968,True,False,flat_up
-AIIO,Robo.ai Inc. - Class B Ordinary Shares,NASDAQ,5.17,2660460,514425,-44.92,0.683,2753072,False,False,down
-AGMH,AGM Group Holdings Inc. - Class A Ordinary Shares,NASDAQ,5.14,5219605,1015100,-24.27,0.518,3456886,False,False,down
-EYPT,"EyePoint, Inc. - Common Stock",NASDAQ,5.12,17801070,3473845,-88.24,0.38,11627396,False,False,down
-GCGR,General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares,NASDAQ,5.06,73709,14580,-1.38,10.0,738823,False,False,down
-WLII,Willow Lane Acquisition Corp. II - Class A Ordinary Shares,NASDAQ,5.04,84340,16750,-1.07,10.18,860187,True,False,down
-AAC,Ares Acquisition Corporation III Class A Ordinary Shares,NYSE,4.93,78375,15885,-1.68,9.95,782271,True,False,down
-DRDB,Roman DBDR Acquisition Corp. II - Ordinary shares,NASDAQ,4.92,75460,15335,0.33,10.765,810276,True,False,flat_up
-CRBU,"Caribou Biosciences, Inc. - Common Stock",NASDAQ,4.91,5843675,1191190,-63.52,0.445,3351571,False,False,down
-SPAI,Safe Pro Group Inc. - Common Stock,NASDAQ,4.89,418620,85570,-25.17,3.39,1839622,False,False,down
-YFOR,YYForce Inc. - Class A Ordinary Shares,NASDAQ,4.88,7198345,1474515,-88.98,0.151,2917263,False,False,down
-WTF,Waton Financial Limited - Ordinary Shares,NASDAQ,4.8,11675,2430,-20.62,2.04,27694,False,False,down
-SAFX,"XCF Global, Inc. - Class A Common Stock",NASDAQ,4.78,20298305,4246235,-61.82,0.126,3571190,False,False,down
-CLRO,"ClearOne, Inc. - Common Stock",NASDAQ,4.78,7560115,1581660,0.0,5.0,34353329,False,False,flat_up
-TONT,Graf Global Corp. Class A ordinary shares,NYSE American,4.68,130110,27810,0.64,10.96,1422629,False,False,flat_up
-CHEC,Chenghe Acquisition III Co. - Class A Ordinary Shares,NASDAQ,4.67,32051,6870,0.19,10.31,330076,False,False,flat_up
-DMII,Drugs Made In America Acquisition II Corp. - Ordinary Shares,NASDAQ,4.62,241110,52175,0.1,10.2,2456301,False,False,flat_up
-JENA,Jena Acquisition Corporation II Class A Ordinary Shares,NYSE,4.58,149970,32780,0.29,10.44,1563237,True,False,flat_up
+CNEY,CN Energy Group Inc. - Class A Ordinary Shares,NASDAQ,7.82,467055,59705,-17.56,0.446,225943,False,False,down
+GUTS,"Fractyl Health, Inc. - Common Stock",NASDAQ,7.79,1182195,151730,-80.0,0.977,1911783,False,False,down
+INLX,"Intellinetics, Inc. Common Stock",NYSE American,7.77,31315,4030,-20.0,4.04,150351,False,False,down
+WENN,Wen Acquisition Corp - Class A Ordinary Shares,NASDAQ,7.69,229184,29820,0.34,10.455,2389854,True,False,flat_up
+HUHU,HUHUTECH International Group Inc. - Ordinary Shares,NASDAQ,7.63,549520,71990,-91.07,0.425,923883,False,False,down
+WKHS,"Workhorse Group, Inc. - Common Stock",NASDAQ,7.57,559535,73950,-0.67,2.95,1538126,False,False,down
+ISNR,Snow Rothschild Acquisition Corp. - Class A Ordinary Shares,NASDAQ,7.52,7185,955,-0.1,9.83,70511,True,False,down
+FRGT,"Freight Technologies, Inc. - Ordinary Shares",NASDAQ,7.51,4526202,602992,-57.54,1.07,11216851,False,False,down
+VJET,"Flyte Aviation, Inc. Common Stock",NYSE American,7.38,1168540,158348,-60.67,0.59,1518005,False,False,down
+ABOS,"Acumen Pharmaceuticals, Inc. - Common Stock",NASDAQ,7.22,4007575,555105,-89.71,0.21,2125094,False,False,down
+TPTS,"Terra Property Trust, Inc. 7.00% Senior Secured Notes due 2029",NYSE,7.22,6537,905,-9.53,13.0999,86697,False,False,down
+ECCV,Eagle Point Credit Company 5.375% Notes due 2029,NYSE,7.1,30869,4350,0.89,24.34,756404,False,False,flat_up
+FERA,Fifth Era Acquisition Corp I - Class A Ordinary Shares,NASDAQ,7.03,121215,17235,0.19,10.57,1279488,True,False,flat_up
+RPGL,Republic Power Group Limited - Class A Ordinary Shares,NASDAQ,6.96,181130,26015,-72.57,10.2,1860842,False,False,down
+SGRX,SANGRIX INC. - Class A Ordinary Shares,NASDAQ,6.93,12596010,1817460,-41.75,0.734,10281866,False,False,down
+OLOX,Olenox Industries Inc. - Common Stock,NASDAQ,6.85,14713175,2147205,-7.24,0.781,15590819,False,False,down
+NOEM,CO2 Energy Transition Corp. - Common Stock,NASDAQ,6.81,885,130,-0.1,10.5,9317,False,False,down
+FCHL,Fitness Champs Holdings Limited - Ordinary Shares,NASDAQ,6.72,2987320,444550,-3.78,0.892,3092974,False,False,down
+FMST,Foremost Clean Energy Ltd. - Common Shares,NASDAQ,6.49,674570,103950,-0.85,0.581,369286,False,False,down
+CHR,"Cheer Holding, Inc.  - Class A Ordinary Share",NASDAQ,6.48,209215,32290,-18.18,1.35,326138,False,False,down
+OTAI,Starlink AI Acquisition Corporation Ordinary Shares,NYSE,6.46,26100,4040,1.0,10.11,263865,True,False,flat_up
+MTEN,Mingteng International Corporation Inc. - Class A Ordinary Shares,NASDAQ,6.37,4209190,660770,-15.54,0.853,4451557,False,False,down
+BOF,BranchOut Food Inc. - Common Stock,NASDAQ,6.36,138890,21830,-55.78,1.72,317338,False,False,down
+MMED,"MiniMed Group, Inc. - Common Stock",NASDAQ,6.34,18174020,2865165,-7.21,18.28,333314185,False,True,down
+TMTS,Spartacus Acquisition Corp. II - Class A Ordinary Shares,NASDAQ,6.34,218200,34415,0.0,10.03,2183853,True,False,flat_up
+KPET,KPET Ultra Paceline Corporation Class A Ordinary Shares,NYSE,6.33,20430,3225,-0.2,10.0,204150,False,False,down
+VRAX,Virax Biolabs Group Limited - Ordinary Shares,NASDAQ,6.31,203810,32285,-45.0,1.21,454929,False,False,down
+MMA,Mixed Martial Arts Group Limited Ordinary Shares,NYSE American,6.29,2677550,425960,-9.95,0.335,905466,False,False,down
+TONT,Graf Global Corp. Class A ordinary shares,NYSE American,6.28,206280,32840,0.46,10.96,2257704,False,False,flat_up
+MB,MasterBeef Group - Ordinary Shares,NASDAQ,6.27,45855,7310,0.77,3.94,199819,False,False,flat_up
+POLA,"Polar Power, Inc. - Common Stock",NASDAQ,6.1,950215,155800,-53.45,0.54,820539,False,False,down
+CXII,Churchill Capital Corp XII - Class A Ordinary Shares,NASDAQ,5.97,59655,9985,-3.7,10.4,622659,False,False,down
+PYT,PPlus Tr GSC-2 Tr Ctf Fltg Rate,NYSE,5.97,925,155,-2.19,23.22,21394,False,False,down
+AIFA,"All In FutureTech Alliance, Inc. - Common Stock",NASDAQ,5.86,422000,72010,-4.7,4.26,2832211,False,False,down
+GLED,GalaxyEdge Acquisition Corporation Ordinary Shares,NYSE,5.86,94950,16205,0.6,10.1,956338,True,False,flat_up
+CEPS,"Cantor Equity Partners VI, Inc. - Class A Ordinary Shares",NASDAQ,5.85,27975,4785,-1.75,10.1,284603,False,False,down
+MKDW,MKDWELL Tech Inc. - Ordinary Shares,NASDAQ,5.83,2231310,382570,-89.87,0.153,757508,False,False,down
+DRDB,Roman DBDR Acquisition Corp. II - Ordinary shares,NASDAQ,5.82,75611,12995,0.09,10.74,811899,True,False,flat_up
+WTF,Waton Financial Limited - Ordinary Shares,NASDAQ,5.67,14675,2590,-17.2,2.07,33786,False,False,down
+REVB,"Revelation Biosciences, Inc. - Common Stock",NASDAQ,5.66,23671,4186,-24.64,4.03,90182,False,False,down
+POAS,Phaos Technology Holdings (Cayman) Limited Class A Ordinary Shares,NYSE American,5.64,95023,16847,-40.0,1.26,216326,False,False,down
+INLF,INLIF LIMITED - Class A Ordinary shares,NASDAQ,5.63,17216735,3055815,-94.79,0.185,4464618,False,False,down
+JG,Aurora Mobile Limited - American Depositary Shares,NASDAQ,5.58,21920,3925,0.93,6.54,172321,False,False,flat_up
+YXT,YXT.COM GROUP HOLDING LIMITED - American Depository Shares,NASDAQ,5.52,79700,14430,-32.24,1.45,122765,False,False,down
+CHAR,Charlton Aria Acquisition Corporation - Class A Ordinary Shares,NASDAQ,5.51,66222,12025,0.18,10.99,727881,True,False,flat_up
+BEEM,Beam Global - Common Stock,NASDAQ,5.43,1792965,330250,-23.81,0.861,1720513,False,False,down
+AACG,"ATA Creativity Global - American Depositary Shares, each representing two common shares",NASDAQ,5.43,27275,5025,-15.58,0.65,22715,False,False,down
+AIIO,Robo.ai Inc. - Class B Ordinary Shares,NASDAQ,5.4,2658260,491820,-49.08,0.606,2736907,False,False,down
+KFII,K&F Growth Acquisition Corp. II - Class A Ordinary shares,NASDAQ,5.3,217795,41070,2.8,10.98,2334189,True,False,flat_up
+SZZL,Sizzle Acquisition Corp. II - Class A ordinary shares,NASDAQ,5.26,72445,13770,0.38,10.52,761116,True,False,flat_up
+BKHA,Black Hawk Acquisition Corporation - Class A Ordinary Shares,NASDAQ,5.21,50340,9670,-61.87,4.72,423050,True,False,down
+AAC,Ares Acquisition Corporation III Class A Ordinary Shares,NYSE,5.17,78499,15180,-1.68,9.95,783506,True,False,down
+EYPT,"EyePoint, Inc. - Common Stock",NASDAQ,5.13,17951395,3498025,-89.23,0.35,11229418,False,False,down
+AGMH,AGM Group Holdings Inc. - Class A Ordinary Shares,NASDAQ,5.12,5217295,1019735,-27.71,0.506,3454572,False,False,down
+CRBU,"Caribou Biosciences, Inc. - Common Stock",NASDAQ,5.07,5915650,1167035,-65.33,0.423,3347487,False,False,down
+SPAI,Safe Pro Group Inc. - Common Stock,NASDAQ,5.06,422030,83465,-27.6,3.2,1848332,False,False,down
+WLII,Willow Lane Acquisition Corp. II - Class A Ordinary Shares,NASDAQ,5.03,84325,16765,-0.78,10.18,860033,True,False,down
+YFOR,YYForce Inc. - Class A Ordinary Shares,NASDAQ,4.97,7330865,1474210,-90.48,0.139,2916756,False,False,down
+CLRO,"ClearOne, Inc. - Common Stock",NASDAQ,4.86,7708420,1587725,-16.42,3.41,34854631,False,False,down
+FACT,FACT II Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.85,88945,18355,0.47,10.77,955422,True,False,flat_up
+SAFX,"XCF Global, Inc. - Class A Common Stock",NASDAQ,4.82,20381225,4225400,-62.61,0.123,3557914,False,False,down
+CHEC,Chenghe Acquisition III Co. - Class A Ordinary Shares,NASDAQ,4.81,32300,6710,0.1,10.3,332645,False,False,flat_up
+TANH,Tantech Holdings Ltd. - Class A Common Shares,NASDAQ,4.8,208480,43460,-16.97,12.28,4186915,False,False,down
+BLUW,Blue Water Acquisition Corp. III - Class A Ordinary Shares,NASDAQ,4.75,69375,14620,0.19,10.4,720210,True,False,flat_up
+ICMB,"Investcorp Credit Management BDC, Inc. - Common Stock",NASDAQ,4.73,127145,26870,-9.49,0.715,91262,False,False,down
 SUMA,SUMA Acquisition Corporation - Class A Ordinary Shares,NASDAQ,4.56,16125,3540,0.4,9.99,160620,True,False,flat_up
-KPET,KPET Ultra Paceline Corporation Class A Ordinary Shares,NYSE,4.55,19495,4285,-0.2,10.0,194800,False,False,down
-GHG,"GreenTree Hospitality Group Ltd. American depositary shares, each representing one Class A ordinary share",NYSE,4.54,44280,9755,-3.88,0.99,43848,False,False,down
-APMC,AmperCap Acquisition Company - Ordinary Shares,NASDAQ,4.54,18775,4135,-0.1,9.95,187055,True,False,down
-PYT,PPlus Tr GSC-2 Tr Ctf Fltg Rate,NYSE,4.51,925,205,-2.19,23.22,21394,False,False,down
-MITN,"TPG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",NYSE,4.5,11468,2550,-0.16,25.2601,288063,False,False,down
-ICMB,"Investcorp Credit Management BDC, Inc. - Common Stock",NASDAQ,4.47,121605,27175,-9.52,0.751,87416,False,False,down
-HFBL,"Home Federal Bancorp, Inc. of Louisiana - Common Stock",NASDAQ,4.4,4315,980,-9.73,22.36,94725,False,False,down
-ELPW,Elong Power Holding Limited - Class A Ordinary Shares,NASDAQ,4.4,2123195,482760,-9.24,2.75,6340269,False,False,down
+DMII,Drugs Made In America Acquisition II Corp. - Ordinary Shares,NASDAQ,4.55,240262,52825,0.1,10.2,2447664,False,False,flat_up
+ELPW,Elong Power Holding Limited - Class A Ordinary Shares,NASDAQ,4.51,2145575,476245,-6.06,2.79,6402446,False,False,down
+MITN,"TPG Mortgage Investment Trust, Inc. 9.500% Senior Notes due 2029",NYSE,4.44,11930,2685,-2.17,24.8,299428,False,False,down
+OXSQG,Oxford Square Capital Corp. - 5.50% Notes due 2028,NASDAQ,4.43,2059,465,-1.62,24.0,49410,False,False,down
+TRAD,APEX Tech Acquisition Inc. Ordinary Shares,NYSE,4.42,44285,10025,0.4,10.09,445950,False,False,flat_up
 CCAQ,Collective Acquisition Corp. - Class A ordinary shares,NASDAQ,4.38,2190,500,-0.84,10.6,23190,True,False,down
-AACG,"ATA Creativity Global - American Depositary Shares, each representing two common shares",NASDAQ,4.25,23925,5635,-16.67,0.65,20554,False,False,down
-CIRC,"Circle8 Group, Inc. - Common Stock",NASDAQ,4.24,2463380,580705,-50.52,0.239,1077186,False,False,down
-IACQ,Irenic Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.2,43275,10300,0.0,9.95,428882,True,False,flat_up
-RIME,"Algorhythm Holdings, Inc. - Common Stock",NASDAQ,4.19,8515035,2029950,-35.29,0.11,973707,False,False,down
-AGBK,AGI Inc Class A Common Shares,NYSE,4.16,616320,148145,-6.06,5.12,3763367,False,False,down
-CANG,Cango Inc. Class A Ordinary Shares,NYSE,4.12,2546350,617560,-50.98,1.25,7141454,False,False,down
-BLZR,Trailblazer Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.12,78615,19100,0.1,10.25,803973,True,False,flat_up
-NSPR,InspireMD Inc. - Common Stock,NASDAQ,4.1,241015,58720,-27.42,0.45,114379,False,False,down
-AVBP,"ArriVent BioPharma, Inc. - Common Stock",NASDAQ,3.99,2631155,659560,-44.87,15.95,43432835,False,True,down
-RDHL,Redhill Biopharma Ltd. - American Depositary Shares,NASDAQ,3.97,905135,227995,-13.12,0.417,511867,False,False,down
-RNGT,Range Capital Acquisition Corp II - Class A Ordinary Shares,NASDAQ,3.96,106294,26820,0.1,10.2,1081523,True,False,flat_up
-WENC,West Enclave Merger Corp. Ordinary Shares,NYSE,3.95,16570,4200,0.2,10.03,166068,False,False,flat_up
-IPW,iPower Inc. - Common Stock,NASDAQ,3.81,737926,193734,-83.74,2.225,5076426,False,False,down
-CRIS,"Curis, Inc. - Common Stock",NASDAQ,3.79,586080,154690,-33.73,0.55,316571,False,False,down
-HCXY,"Hercules Capital, Inc. 6.25% Notes due 2033",NYSE,3.79,5453,1440,-2.85,24.22,132143,False,False,down
-WKHS,"Workhorse Group, Inc. - Common Stock",NASDAQ,3.78,289205,76570,-13.27,2.55,748695,False,False,down
-LPAA,Launch One Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.77,2675,710,0.18,10.87,29157,True,False,flat_up
-TWLV,Twelve Seas Investment Company III - Class A Ordinary Shares,NASDAQ,3.77,73700,19550,0.45,10.12,742810,False,False,flat_up
-TIL,"Instil Bio, Inc. - Common Stock",NASDAQ,3.72,57295,15400,-5.67,6.825,353104,False,False,down
-IACO,Idea Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.72,134258,36070,0.2,10.02,1342162,True,False,flat_up
-GHXI,"Gores Holdings XI, Inc. - Class A Ordinary Shares",NASDAQ,3.67,120155,32770,-1.98,9.9,1190817,False,False,down
-PAII,Pyrophyte Acquisition Corp. II Class A Ordinary Shares,NYSE,3.67,259585,70755,0.1,10.34,2678922,True,False,flat_up
-ARCI,Archimedes Tech SPAC Partners III Co. - Ordinary Share,NASDAQ,3.65,101555,27815,-0.59,10.04,1020308,False,False,down
-GJT,"Synthetic Fixed-Income Securities, Inc. Floating Rate Structured Repackaged Asset-Backed Trust Securities Certificates, Series 2006-3",NYSE,3.63,780,215,-0.9,23.01,18046,False,False,down
-INAC,Indigo Acquisition Corp. - Ordinary Shares,NASDAQ,3.6,12955,3595,0.48,10.43,134605,True,False,flat_up
-CAES,"Cantor Equity Partners VII, Inc. - Class A Ordinary Shares",NASDAQ,3.56,54691,15365,-0.5,10.0,547684,False,False,down
-KRAQ,KRAKacquisition Corp - Class A Ordinary Shares,NASDAQ,3.53,123005,34850,0.1,10.02,1231571,False,False,flat_up
-HCAI,"Huachen AI Parking Management Technology Holding Co., Ltd. - Class A Ordinary Shares",NASDAQ,3.5,241884,69172,-69.32,3.27,1234875,False,False,down
-GFAI,"Guardforce AI Co., Limited - Ordinary Shares",NASDAQ,3.48,342710,98400,-38.71,0.19,75525,False,False,down
-CNSP,"CNS Pharmaceuticals, Inc. - Common Stock",NASDAQ,3.48,13325,3830,-8.97,4.77,65342,False,False,down
-INTR,Inter & Co. Inc. - Class A Common Shares,NASDAQ,3.47,16222830,4675750,-21.32,4.17,98447805,False,False,down
-ITHA,ITHAX Acquisition Corp III - Class A Ordinary Shares,NASDAQ,3.47,79605,22970,0.1,10.09,801640,True,False,flat_up
-AXG,Solowin Holdings - Class A Ordinary Share,NASDAQ,3.46,160993,46542,-77.3,5.68,2196356,False,False,down
+BCSS,Bain Capital GSS Investment Corp. Class A Ordinary Shares,NYSE,4.35,156600,36035,-0.44,10.235,1597658,False,False,down
+NSPR,InspireMD Inc. - Common Stock,NASDAQ,4.32,261665,60560,-27.42,0.45,123113,False,False,down
+RIME,"Algorhythm Holdings, Inc. - Common Stock",NASDAQ,4.3,8570510,1994300,-37.5,0.1,978209,False,False,down
+CIRC,"Circle8 Group, Inc. - Common Stock",NASDAQ,4.27,2490675,582715,-43.05,0.291,1081610,False,False,down
+RDHL,Redhill Biopharma Ltd. - American Depositary Shares,NASDAQ,4.26,904080,212240,-22.4,0.388,510728,False,False,down
+HFBL,"Home Federal Bancorp, Inc. of Louisiana - Common Stock",NASDAQ,4.23,4395,1040,-10.0,22.85,96401,False,False,down
+IACQ,Irenic Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.21,43305,10295,-0.2,9.93,429180,True,False,down
+LPAA,Launch One Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.21,2675,635,0.18,10.87,29157,True,False,flat_up
+BLZR,Trailblazer Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.2,78150,18610,0.0,10.25,799206,True,False,flat_up
+CRIS,"Curis, Inc. - Common Stock",NASDAQ,4.11,630930,153400,-25.0,0.6,342269,False,False,down
+PODC,"PodcastOne, Inc. - Common Stock",NASDAQ,4.11,317175,77085,1.7,2.39,747100,False,False,flat_up
+SMX,SMX (Security Matters) Public Limited Company - Ordinary Shares,NASDAQ,4.09,729160,178390,-57.07,1.64,1528692,False,False,down
+AVBP,"ArriVent BioPharma, Inc. - Common Stock",NASDAQ,4.03,2665520,661670,-47.4,14.87,43603751,False,True,down
+CAQ,Cambridge Acquisition Corp. - Class A Ordinary Shares,NASDAQ,4.02,27975,6955,0.3,10.03,279765,True,False,flat_up
+AGBK,AGI Inc Class A Common Shares,NYSE,4.01,623105,155450,-5.68,5.15,3794492,False,False,down
+RNGT,Range Capital Acquisition Corp II - Class A Ordinary Shares,NASDAQ,4.01,107659,26815,0.1,10.2,1095442,True,False,flat_up
+EMA,Emera Incorporated Common Shares,NYSE,3.98,1408085,353350,2.62,49.29,67183357,False,True,flat_up
+XTER,Karman Line Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.96,72780,18365,-0.1,9.79,712013,True,False,down
+SPHL,Springview Holdings Ltd - Ordinary shares,NASDAQ,3.91,2647690,677210,-1.7,2.31,9097924,False,False,down
+AUC,ATIF Holdings Limited - Ordinary Shares,NASDAQ,3.9,22840,5850,-18.57,7.06,183826,False,False,down
+ARCI,Archimedes Tech SPAC Partners III Co. - Ordinary Share,NASDAQ,3.87,101050,26130,-0.4,10.04,1015217,False,False,down
+HCMA,HCM III Acquisition Corp. - Class A Ordinary Share,NASDAQ,3.86,110150,28520,0.19,10.32,1134377,True,False,flat_up
+HCXY,"Hercules Capital, Inc. 6.25% Notes due 2033",NYSE,3.82,5479,1435,-3.06,24.1874,132769,False,False,down
+ICU,SeaStar Medical Holding Corporation - Common Stock,NASDAQ,3.79,248790,65615,-52.24,2.24,808008,False,False,down
+IACO,Idea Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.73,134315,36020,0.0,10.0,1342733,True,False,flat_up
+AESP,Aeon Acquisition I Corp. - Class A Ordinary Shares,NASDAQ,3.73,18785,5040,0.2,10.01,188074,False,False,flat_up
+IPW,iPower Inc. - Common Stock,NASDAQ,3.71,736912,198672,-86.83,1.77,5015240,False,False,down
+PACH,Pioneer Acquisition I Corp - Class A Ordinary Shares,NASDAQ,3.7,216410,58440,-0.14,10.385,2244489,False,False,down
+CANG,Cango Inc. Class A Ordinary Shares,NYSE,3.69,2504470,679265,-55.06,1.2,6979162,False,False,down
+PAII,Pyrophyte Acquisition Corp. II Class A Ordinary Shares,NYSE,3.67,259615,70800,0.1,10.34,2679233,True,False,flat_up
+PENG,"Penguin Solutions, Inc. - Common Stock",NASDAQ,3.65,5411120,1481180,-15.37,51.93,353400554,False,True,down
+CAES,"Cantor Equity Partners VII, Inc. - Class A Ordinary Shares",NASDAQ,3.65,56957,15620,-0.2,10.03,570397,False,False,down
+THRM,Gentherm Inc - Common Stock,NASDAQ,3.64,2853945,784340,-1.12,30.95,86753212,False,True,down
+GFAI,"Guardforce AI Co., Limited - Ordinary Shares",NASDAQ,3.63,349900,96435,-42.53,0.177,76429,False,False,down
+GHXI,"Gores Holdings XI, Inc. - Class A Ordinary Shares",NASDAQ,3.63,118205,32545,-1.1,9.9,1171291,False,False,down
+CNSP,"CNS Pharmaceuticals, Inc. - Common Stock",NASDAQ,3.6,15425,4290,-6.1,5.0,75665,False,False,down
+JENA,Jena Acquisition Corporation II Class A Ordinary Shares,NYSE,3.6,143030,39715,0.38,10.44,1491061,True,False,flat_up
+ACAA,Averin Capital Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.58,102014,28525,-0.3,10.02,1021471,True,False,down
+HCAI,"Huachen AI Parking Management Technology Holding Co., Ltd. - Class A Ordinary Shares",NASDAQ,3.57,248539,69617,-75.05,2.53,1248219,False,False,down
+INTR,Inter & Co. Inc. - Class A Common Shares,NASDAQ,3.57,16690235,4670610,-26.82,4.01,100016560,False,False,down
+BIII,Black Spade Acquisition III Co Class A Ordinary Shares,NYSE,3.56,124024,34855,0.6,10.11,1250938,False,False,flat_up
+JFU,9F Inc. - American Depositary Shares,NASDAQ,3.52,9915,2820,-13.83,2.292,24727,False,False,down
+TACO,Berto Acquisition Corp. - Ordinary Shares,NASDAQ,3.51,200390,57140,0.33,10.495,2099626,True,False,flat_up
+COCH,"Envoy Medical, Inc. - Class A Common Stock",NASDAQ,3.47,21717,6266,-2.21,6.63,139126,False,False,down
+TIL,"Instil Bio, Inc. - Common Stock",NASDAQ,3.46,57125,16510,-5.82,6.8,351348,False,False,down
+KRAQ,KRAKacquisition Corp - Class A Ordinary Shares,NASDAQ,3.46,122455,35380,0.1,10.02,1226066,False,False,flat_up
+PLCE,"Children's Place, Inc. (The) - Common Stock",NASDAQ,3.45,847150,245510,-78.89,0.42,657497,False,False,down
 GTERA,Globa Terra Acquisition Corporation - Class A Ordinary Shares,NASDAQ,3.45,70385,20430,0.19,10.47,738645,True,False,flat_up
-GECCI,Great Elm Capital Corp. - 8.50% NOTES DUE 2029,NASDAQ,3.44,5023,1460,0.44,25.1599,126061,False,False,flat_up
-COCH,"Envoy Medical, Inc. - Class A Common Stock",NASDAQ,3.42,20100,5878,-1.66,6.5,128526,False,False,down
-TACO,Berto Acquisition Corp. - Ordinary Shares,NASDAQ,3.38,200960,59400,0.24,10.495,2105536,True,False,flat_up
-LCU,Lion Copper Corp. - Common Shares,NASDAQ,3.37,16207,4807,-12.42,4.3,83365,False,False,down
-IPST,"IP Strategy Holdings, Inc. - Common Stock",NASDAQ,3.37,1006755,299010,-10.85,2.63,2591813,False,False,down
+CIG.C,Comp En De Mn Cemig ADS American Depositary Receipts,NYSE,3.44,5063,1473,-0.63,3.13,17298,False,False,down
+GHG,"GreenTree Hospitality Group Ltd. American depositary shares, each representing one Class A ordinary share",NYSE,3.41,44265,12995,0.0,0.94,43833,False,False,flat_up
+GECCI,Great Elm Capital Corp. - 8.50% NOTES DUE 2029,NASDAQ,3.41,5105,1495,0.46,25.14,128116,False,False,flat_up
+BLIN,"Bridgeline Digital, Inc. - Common Stock",NASDAQ,3.38,71935,21290,-18.52,0.66,56126,False,False,down
 SHOT,RMG ML Sports Holdings - Class A Ordinary Shares,NASDAQ,3.37,11770,3495,0.2,9.88,116171,False,False,flat_up
-MLEC,Moolec Science SA - Ordinary Shares,NASDAQ,3.33,85260,25605,-71.52,1.37,173886,False,False,down
-TLK,"PT Telekomunikasi Indonesia, Tbk",NYSE,3.27,2696875,824210,-9.66,11.22,31427170,False,True,down
-MCRP,Micropolis AI Robotics Ordinary Shares,NYSE American,3.26,467360,143540,-33.06,0.492,228653,False,False,down
-HCMA,HCM III Acquisition Corp. - Class A Ordinary Share,NASDAQ,3.24,92475,28520,0.19,10.32,951971,True,False,flat_up
-MASK,3 E Network Technology Group Ltd - Class A Ordinary Shares,NASDAQ,3.23,4074125,1260975,-15.95,0.68,3770578,False,False,down
-CIG.C,Comp En De Mn Cemig ADS American Depositary Receipts,NYSE,3.2,4952,1549,-8.26,3.0,16951,False,False,down
-KPTI,Karyopharm Therapeutics Inc. - Common Stock,NASDAQ,3.18,4720405,1484660,1.5,0.88,3427255,False,False,flat_up
-GOVX,"GeoVax Labs, Inc. - Common Stock",NASDAQ,3.16,905005,286365,-42.24,0.186,270172,False,False,down
-PLCE,"Children's Place, Inc. (The) - Common Stock",NASDAQ,3.13,795275,254290,-77.78,0.46,641262,False,False,down
-AUC,ATIF Holdings Limited - Ordinary Shares,NASDAQ,3.12,20795,6665,-13.48,7.83,169855,False,False,down
-QLEP,Quantum Leap Acquisition Corp Class A Ordinary Shares,NYSE,3.12,30580,9815,0.1,10.06,307653,True,False,flat_up
-EDN,Empresa Distribuidora Y Comercializadora Norte S.A. (Edenor) American Depositary Shares,NYSE,3.1,193145,62350,-16.91,16.66,3822457,False,False,down
-VINP,Vinci Compass Investments Ltd. - Class A Common Shares,NASDAQ,3.1,146185,47165,-5.27,8.81,1525614,False,False,down
-NEWTG,"NewtekOne, Inc. - 8.50% Fixed Rate Senior Notes due 2029",NASDAQ,3.08,6673,2165,-1.27,24.925,165578,False,False,down
-VXZ,iPath Series B S&P 500 VIX Mid-Term Futures ETN,Cboe BZX,3.06,21180,6930,-0.34,45.66,962223,False,False,down
-BACC,Blue Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.04,347765,114385,-0.38,10.46,3631538,True,False,down
-AZIO,"Azio AI Holdings, Inc. - Common stock",NASDAQ,3.03,361995,119320,-38.24,0.735,349373,False,False,down
-RMCF,"Rocky Mountain Chocolate Factory, Inc. - Common Stock",NASDAQ,3.03,96955,31975,-3.49,0.83,96018,False,False,down
-YCY,AA Mission Acquisition Corp. II Class A Ordinary Shares,NYSE,3.03,34870,11515,0.49,10.31,359615,True,False,flat_up
+IPST,"IP Strategy Holdings, Inc. - Common Stock",NASDAQ,3.36,1006650,299730,-15.26,2.61,2590079,False,False,down
+GOVX,"GeoVax Labs, Inc. - Common Stock",NASDAQ,3.33,915065,274525,-47.19,0.169,270417,False,False,down
+LCU,Lion Copper Corp. - Common Shares,NASDAQ,3.32,16469,4961,-15.38,4.07,84315,False,False,down
+MCRP,Micropolis AI Robotics Ordinary Shares,NYSE American,3.29,464410,141315,-33.53,0.452,225281,False,False,down
+KPRX,"Kiora Pharmaceuticals, Inc.  - Common Stock",NASDAQ,3.26,44655,13715,-39.06,1.56,87283,False,False,down
+ADSE,ADS-TEC ENERGY PLC - Ordinary Shares,NASDAQ,3.26,52925,16225,-7.18,9.83,514733,False,False,down
+KCHV,Kochav Defense Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.25,42445,13060,0.48,10.52,445745,True,False,flat_up
+VXZ,iPath Series B S&P 500 VIX Mid-Term Futures ETN,Cboe BZX,3.25,22115,6810,1.76,46.3,1005874,False,False,flat_up
+MASK,3 E Network Technology Group Ltd - Class A Ordinary Shares,NASDAQ,3.24,1018269,313912,-28.96,2.401,3768448,False,False,down
+GCGR,General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares,NASDAQ,3.24,61742,19060,-0.3,10.1,617597,False,False,down
+TLK,"PT Telekomunikasi Indonesia, Tbk",NYSE,3.23,2751595,851640,-11.0,11.17,31964645,False,True,down
+JACS,Jackson Acquisition Company II Class A Ordinary Shares,NYSE,3.2,76060,23765,0.65,10.86,825110,True,False,flat_up
+BTOC,Armlogi Holding Corp. - common stock,NASDAQ,3.19,10879,3411,-38.57,2.231,29200,False,False,down
+WSTN,Westin Acquisition Corp - Class A Ordinary Share,NASDAQ,3.18,12065,3800,0.99,10.25,123479,True,False,flat_up
+MLEC,Moolec Science SA - Ordinary Shares,NASDAQ,3.11,83370,26790,-70.53,1.4,163719,False,False,down
+BACC,Blue Acquisition Corp. - Class A Ordinary Shares,NASDAQ,3.09,353275,114400,-0.19,10.47,3689228,True,False,down
+KPTI,Karyopharm Therapeutics Inc. - Common Stock,NASDAQ,3.07,4783125,1560560,-17.46,0.662,3453363,False,False,down
+GIGM,GigaMedia Limited - Ordinary Shares,NASDAQ,3.07,11345,3690,-1.4,1.41,15258,False,False,down
+PAVS,Paranovus Entertainment Technology Ltd. - Class A Ordinary Shares,NASDAQ,3.06,45070,14730,-8.0,3.45,153465,False,False,down
+YCY,AA Mission Acquisition Corp. II Class A Ordinary Shares,NYSE,3.05,35130,11510,0.68,10.33,362301,True,False,flat_up
+VINP,Vinci Compass Investments Ltd. - Class A Common Shares,NASDAQ,3.03,146400,48395,-6.88,8.8,1525517,False,False,down
+AUID,authID Inc. - Common Stock,NASDAQ,3.02,2004315,664730,-39.86,0.264,667452,False,False,down
+EVAX,Evaxion A/S - American Depositary Share,NASDAQ,3.01,128450,42690,-8.44,2.93,441649,False,False,down
